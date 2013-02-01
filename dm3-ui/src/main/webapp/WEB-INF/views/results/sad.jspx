@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" id="results_sad" version="2.0">
+	<svg id="sg_sad" height="600" width="600"  viewBox="-300 -300 600 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<g id="sad_${modelId}_${processorId}" transform="scale(20)" >
+			<c:forEach items="${results.spots}" var="spot">
+    			<circle id="redcircle" cx="${spot.x}" cy="${spot.y}" r="0.3" fill="red" />
+    		</c:forEach>
+    	</g>
+    	<use xlink:href="#sad_${modelId}_${processorId}" />
+	</svg>
+</div>

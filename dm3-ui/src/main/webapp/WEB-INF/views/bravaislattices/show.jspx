@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice" object="${bravaislattice}" path="/bravaislattices" z="GM3fqkEEpGf7dRM/qNFwEritDVg=">
+        <field:display field="a" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_a" object="${bravaislattice}" z="cMv4/PvHUj/GuIQw+0RDXgI9k+U="/>
+        <field:display field="b" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_b" object="${bravaislattice}" z="7WSeSOjM4Mx7PmBaemwdY6RHHfo="/>
+        <field:display field="c" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_c" object="${bravaislattice}" z="l3Z9GUJaTonA4/QCuUuj3X3Q65o="/>
+        <field:display field="alpha" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_alpha" object="${bravaislattice}" z="GNEe2BMy29RjV4ScDIEZxCk9b48="/>
+        <field:display field="gamma" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_gamma" object="${bravaislattice}" z="+Afl6c0zMHJYRfCB4p850o6DZuc="/>
+        <field:display field="beta" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_beta" object="${bravaislattice}" z="Bq8TNvU5vYoU9UmZCyRkPnKVYSE="/>
+        <field:display field="crystalSystem" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_crystalSystem" object="${bravaislattice}" z="F7gOlw7T1A/7oZDYjt+wByje8bI="/>
+        <field:display field="centering" id="s_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_centering" object="${bravaislattice}" z="A8+JPbETTm+5uiwxtvDVSuU9Fpc="/>
+    </page:show>
+</div>

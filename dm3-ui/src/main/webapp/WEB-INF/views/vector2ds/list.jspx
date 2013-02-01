@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_math_geometry_Vector2D" items="${vector2ds}" z="AXk1O9UoeTFbVLx4ClAv9SjmD8k=">
+        <table:table data="${vector2ds}" id="l_com_lacunalabs_dm_data_math_geometry_Vector2D" path="/vector2ds" z="kMu8MK6eocTDsPCVP3JjCzWCfzU=">
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector2D_x" property="x" z="tR1ek0rPHtQqU+HHtJ4ntBqqSNw="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector2D_y" property="y" z="wwvCzec35thJ2sH77iXWJcU0Lx0="/>
+        </table:table>
+    </page:list>
+</div>

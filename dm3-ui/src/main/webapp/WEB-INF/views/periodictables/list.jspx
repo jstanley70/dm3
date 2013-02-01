@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable" items="${periodictables}" z="D4vAM40U4O+ZkOmUQq1+I2Mkjq0=">
+        <table:table data="${periodictables}" id="l_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable" path="/periodictables" z="gvNfoH/yuCoW+NvBwA2zmTTuXc0=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable_elements" property="elements" z="9Z6YMm3l6LcbR8tz8E3WiXAKSBk="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable_name" property="name" z="I1T0sffIZ0+b9OF1Ftltv1uFN3I="/>
+        </table:table>
+    </page:list>
+</div>

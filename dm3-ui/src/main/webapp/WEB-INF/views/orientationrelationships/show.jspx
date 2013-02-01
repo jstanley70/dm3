@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_math_geometry_OrientationRelationship" object="${orientationrelationship}" path="/orientationrelationships" z="ZBosMoJJnF1RRRscRKUNPgSJscE=">
+        <field:display field="aspect1Shape1" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect1Shape1" object="${orientationrelationship}" z="F2qcjpfrzk+8xikSawVOG8B+tOs="/>
+        <field:display field="aspect1Shape2" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect1Shape2" object="${orientationrelationship}" z="IVErz8mUqWUFmeCkQeVmywiutSA="/>
+        <field:display field="aspect2Shape1" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect2Shape1" object="${orientationrelationship}" z="DmKJuh/cOLEisSqSVyj15Afvz+s="/>
+        <field:display field="aspect2Shape2" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect2Shape2" object="${orientationrelationship}" z="8iRo11jQqETSsgR4qcM8AsC5bvs="/>
+        <field:display field="rotationShape2AboutAspect1" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_rotationShape2AboutAspect1" object="${orientationrelationship}" z="O4kuCeNRi3PTysEMqw98IAa3p68="/>
+        <field:display field="rotationShape2AboutAspect2" id="s_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_rotationShape2AboutAspect2" object="${orientationrelationship}" z="sl6pMViLg7GtynQ3nBZX4FwIMxY="/>
+    </page:show>
+</div>

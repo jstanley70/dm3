@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_experiment_TemExperiment" modelAttribute="temExperiment" path="/temexperiments" versionField="none" z="4jW3o1ROeFnbqoN/gfuZO+C2qHI=">
+        <field:input field="identifier" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_identifier" z="Ze3IVfnvWgDL1nsOGDWGh0htMpo="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadataType" items="${metadatatypes}" path="metadatatypes" z="YZ64gtIPDF+iwSacxpCktP0jvUw="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadata" z="mmfOpwSfk0UO717g1XuC8n8n5Dc="/>
+        <field:select field="tem" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_tem" itemValue="id" items="${tems}" path="/tems" z="frorjY68LcpkRoX8pyGi36QgHec="/>
+        <field:select field="aperature" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_aperature" itemValue="id" items="${aperatures}" path="/aperatures" z="PCZiF6uVN2iSGbzt16WtvD0D/Bk="/>
+        <field:select field="objectiveLens" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_objectiveLens" itemValue="id" items="${temobjectivelenses}" path="/temobjectivelenses" z="tXpv0mYRZMnSn4MTDs9hxZ+12n4="/>
+        <field:select field="processors" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_processors" itemValue="id" items="${processors}" multiple="true" path="/processors" z="GNX5TOjeoZUmxaTQXavwmnLPyHM="/>
+        <field:select field="sample" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_sample" itemValue="id" items="${materials}" path="/materials" z="/DslWfXj/pStGJ0lzh+wKf8qMxo="/>
+        <field:input field="cameraLength" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_cameraLength" validationMessageCode="field_invalid_number" z="VZ+dsCmIHDR8XSJry1E5LJWrqxg="/>
+        <field:input field="cameraConstant" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_cameraConstant" validationMessageCode="field_invalid_number" z="gj50Y2F8KWgG1rorctcY0ewZ+88="/>
+        <field:checkbox field="setByCameraLength" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_setByCameraLength" z="4B9KsWIv2nfGOsdFTXVxvlPJVxU="/>
+        <field:input field="tilt" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_tilt" validationMessageCode="field_invalid_number" z="pcffuUDPAVPqAP/ffkRiNsn9B9Q="/>
+        <field:input field="azimuth" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_azimuth" validationMessageCode="field_invalid_number" z="CDTTWyWjGJuHUwHUpo6djcMlzeQ="/>
+        <field:select field="stagePosition" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_stagePosition" itemValue="id" items="${vector3ds}" path="/vector3ds" z="PVBWkeW9ORxOWCt0w6jW/cS68bc="/>
+        <field:input field="exposureTime" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_exposureTime" validationMessageCode="field_invalid_number" z="4QTf2iJbEHsDM7y6jM8yM2qAhf8="/>
+        <field:select field="beam" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_beam" itemValue="id" items="${particlebeams}" path="/particlebeams" z="weraod2c8ZKLZclfpvfd/soYu2w="/>
+        <field:select field="matrixOrientation" id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_matrixOrientation" itemValue="id" items="${orientations}" path="/orientations" z="TIf0SOpAokpOrg7RcCxKpV/MsIs="/>
+    </form:update>
+</div>

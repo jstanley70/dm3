@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition" items="${atomicpositions}" z="vMc4zS/Cg8NkE9bzVT4UzLyg27o=">
+        <table:table data="${atomicpositions}" id="l_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition" path="/atomicpositions" z="qGExx0Aehlr2GcrzLIkuodrrJAs=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_x" property="x" z="6xzYagbRowHrpOGKCLNFwBlSCOE="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_y" property="y" z="OUGV56J/WvD/BIbp5PCByjAku6M="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_z" property="z" z="307LYIZrAjBwbaLvTk/YgOgqMFE="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_occupancy" property="occupancy" z="nUb/roNBNOCktdS9smtzEkHFdS4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_positionType" property="positionType" z="N3+q7zwtRn9brm7iDZCyNAPKWxA="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_AtomicPosition_atom" property="atom" z="Wl/PrU7oGhon5SMgrPTayXtpXTg="/>
+        </table:table>
+    </page:list>
+</div>

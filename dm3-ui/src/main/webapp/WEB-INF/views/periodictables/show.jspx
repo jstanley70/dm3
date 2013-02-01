@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable" object="${periodictable}" path="/periodictables" z="fLhHlz3l8po+Cx+c5XFgwE866HY=">
+        <field:display field="elements" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable_elements" object="${periodictable}" z="7Bg9aGwhVhxVT5pPVSVKJTWh2Mk="/>
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTable_name" object="${periodictable}" z="bH51OpnXA1OppmqzqZ38R0VIyTc="/>
+    </page:show>
+</div>

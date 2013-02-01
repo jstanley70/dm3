@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_math_geometry_Vector2D" modelAttribute="vector2D" path="/vector2ds" versionField="none" z="bStb+z0HHHk55OjK/cPQfhN79T4=">
+        <field:input field="x" id="c_com_lacunalabs_dm_data_math_geometry_Vector2D_x" validationMessageCode="field_invalid_number" z="cUdEbDwgHrHA+yaDrpU2SrxIrVE="/>
+        <field:input field="y" id="c_com_lacunalabs_dm_data_math_geometry_Vector2D_y" validationMessageCode="field_invalid_number" z="/NMIlA3oYZ/gTopVfwiUomGJunw="/>
+    </form:update>
+</div>

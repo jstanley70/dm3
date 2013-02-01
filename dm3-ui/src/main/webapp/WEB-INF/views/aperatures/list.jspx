@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_Aperature" items="${aperatures}" z="5jia6NvE6jxDJQu/4V4v/ltiWBs=">
+        <table:table data="${aperatures}" id="l_com_lacunalabs_dm_data_physics_instruments_Aperature" path="/aperatures" z="rNcxb7UZt/txHCvWHCcojsYpxKo=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_name" property="name" z="TXbpzC98e+1zHk7zQ7VblTgSOe0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_aperatureRadius" property="aperatureRadius" z="289WiMGzDb2JqHR+1BC+JlyXN5s="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_metadataType" property="metadataType" z="lC3iM+IASERsmwqIAon4xUeNu9I="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_metadata" property="metadata" z="FZbUcJlUj4QPTeyb3oDay8tx/7U="/>
+        </table:table>
+    </page:list>
+</div>

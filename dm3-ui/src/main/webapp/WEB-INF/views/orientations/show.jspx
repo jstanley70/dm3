@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_math_geometry_Orientation" object="${orientation}" path="/orientations" z="8Yk7+BGPQSYuNI0LpDVY3zXiCYo=">
+        <field:display field="ZAspect" id="s_com_lacunalabs_dm_data_math_geometry_Orientation_zAspect" object="${orientation}" z="5GDbakNBXw5DORnFGS9NCLNWaoY="/>
+        <field:display field="YAspect" id="s_com_lacunalabs_dm_data_math_geometry_Orientation_yAspect" object="${orientation}" z="DWP6J+Cxy+qFQ6i73RU8ioaDjbw="/>
+        <field:display field="rotationAboutZ" id="s_com_lacunalabs_dm_data_math_geometry_Orientation_rotationAboutZ" object="${orientation}" z="Xv+++9qLzD/6C69OqtFulOIwIRk="/>
+        <field:display field="rotationAboutAspectY" id="s_com_lacunalabs_dm_data_math_geometry_Orientation_rotationAboutAspectY" object="${orientation}" z="gEaocUZg1fDy9miowghj33vWtcQ="/>
+    </page:show>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="test/java/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/commons-math3-3.0/commons-math3-3.0.jar" sourcepath="/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/commons-math3-3.0/commons-math3-3.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/commons-math3-3.0/commons-math3-3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/flexjson-2.1/flexjson-2.1.jar" sourcepath="/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/flexjson-2.1/flexjson-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/lacunalabs/Documents/workspace-sts-2.9.0.M1/flexjson-2.1/flexjson-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/dm_3/target/classes/com/lacunalabs/dm/shared"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="temdoubletiltholders/list">
+        <put-attribute name="body" value="/WEB-INF/views/temdoubletiltholders/list.jspx"/>
+    </definition>
+<definition extends="default" name="temdoubletiltholders/show">
+        <put-attribute name="body" value="/WEB-INF/views/temdoubletiltholders/show.jspx"/>
+    </definition>
+<definition extends="default" name="temdoubletiltholders/create">
+        <put-attribute name="body" value="/WEB-INF/views/temdoubletiltholders/create.jspx"/>
+    </definition>
+<definition extends="default" name="temdoubletiltholders/update">
+        <put-attribute name="body" value="/WEB-INF/views/temdoubletiltholders/update.jspx"/>
+    </definition>
+</tiles-definitions>

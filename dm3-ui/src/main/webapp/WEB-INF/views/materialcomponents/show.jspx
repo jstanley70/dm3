@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent" object="${materialcomponent}" path="/materialcomponents" z="cO0+AoXTxROZPPJEz59fsKmAC2Y=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_name" object="${materialcomponent}" z="NyAVWGpA6VmpDua3XdntsWl/tpg="/>
+        <field:display field="active" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_active" object="${materialcomponent}" z="4Mbr784cJRykb6lVgveBWBN68BQ="/>
+        <field:display field="matrix" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_matrix" object="${materialcomponent}" z="5X9TfjBSHxJrrKbfh4R76QfoEOo="/>
+        <field:display field="crystal" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_crystal" object="${materialcomponent}" z="7cvOHcljVcdwjdutpZGZfNvAikA="/>
+        <field:display field="totalVolume" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_totalVolume" object="${materialcomponent}" z="BRwCyVZpq6fccvlIlkMbQkonaVw="/>
+    </page:show>
+</div>

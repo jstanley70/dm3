@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_Particle" object="${particle}" path="/particles" z="xhH+MfvUOP5Mddgn748+c7uv4og=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_name" object="${particle}" z="mNOr8RuagYvfF29lhnKpXzvcmoY="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_symbol" object="${particle}" z="0EqiF90EVjyKAJWsbKmIfnzD7mQ="/>
+        <field:display field="particleType" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_particleType" object="${particle}" z="9XGS31+aKDFD/tZ9bZvg9HX7Qus="/>
+        <field:display field="charge" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_charge" object="${particle}" z="T/KAiyhlJ8i20ms8QQ11QRzTDLU="/>
+        <field:display field="mass" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_mass" object="${particle}" z="1ROjArUrCa781HyFaSDqaieVKB0="/>
+        <field:display field="spin" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_spin" object="${particle}" z="vm8LPgzez9RiIu+y1+hhjeiXNi0="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_metadataType" object="${particle}" z="tk8sLlv8rR8rJ7qkxCg5kfh92Nk="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_fundamental_Particle_metadata" object="${particle}" z="OZAPpZ9Tf4tAAScgc6QJXc5qWvA="/>
+    </page:show>
+</div>

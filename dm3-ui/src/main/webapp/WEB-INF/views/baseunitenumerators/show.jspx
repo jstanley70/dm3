@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator" object="${baseunitenumerator}" path="/baseunitenumerators" z="uODAhKGoXZV6KTudB6ITQXQy08Q=">
+        <field:display field="baseUnit" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator_baseUnit" object="${baseunitenumerator}" z="B0FPLygB6cPAuI075rcC3MIh7C4="/>
+        <field:display field="identifier" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator_identifier" object="${baseunitenumerator}" z="pc+Z0TiZRWRDQVwHT92K7iYLuyM="/>
+        <field:display field="exponent" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator_exponent" object="${baseunitenumerator}" z="EJmtzmsnuIwLLrlI2uchJBAV72c="/>
+        <field:display field="multiplier" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator_multiplier" object="${baseunitenumerator}" z="BCKYDes5pg/PPsVZ9SLmRkKDTpc="/>
+        <field:display field="zeroOffset" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnitEnumerator_zeroOffset" object="${baseunitenumerator}" z="FO+KBTU9GxZgnJqJr4CvKrogWjU="/>
+    </page:show>
+</div>

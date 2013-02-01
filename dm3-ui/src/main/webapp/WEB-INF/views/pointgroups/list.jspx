@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_PointGroup" items="${pointgroups}" z="9qjeoDR1z0CTasVKUnGUq4uxoC8=">
+        <table:table data="${pointgroups}" id="l_com_lacunalabs_dm_data_physics_crystallography_PointGroup" path="/pointgroups" z="s3Hz3Wu9P32J022a328n5Czyb6E=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_name" property="name" z="Hq2XVVxXi5oY89pXPen/Zfv8GF0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_symbol" property="symbol" z="QqP5njuLXpbQZViQNP1NaaCg/gU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_centering" property="centering" z="wvqpyWNmbzaF/LWywiZm+Sv5qXc="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_reflectionConditions" property="reflectionConditions" z="DZK91k1BjXK+S0qEFb6yrUelWpI="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_centerings" property="centerings" z="+R6oQSsX8PmRxjb6jEiE4cMK9gU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_PointGroup_coordinatePoints" property="coordinatePoints" z="aRpirZaboQcvqC98rqE5fmlzOzI="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_UnitCell" object="${unitcell}" path="/unitcells" z="770w/+b+Hzsbf7O5FEDgHv9w/AQ=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_name" object="${unitcell}" z="wh07D/niDKTbQH+Pnd6KiykrioQ="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_symbol" object="${unitcell}" z="tikNcUkcGuYnuyrzSO5yCMUIccQ="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_metadataType" object="${unitcell}" z="6/bYIGVV0siu3TmEB1uQVKoo8mA="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_metadata" object="${unitcell}" z="Y9+rpYaOCVoEH/JOmpYBgMJuw7E="/>
+        <field:display field="spaceGroup" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_spaceGroup" object="${unitcell}" z="F9Wql7KRvXv6wGKH2wxDmYnRFn4="/>
+        <field:display field="lattice" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_lattice" object="${unitcell}" z="Ks2zwzZafaMKOQ5lBsuhJe5C1mc="/>
+        <field:display field="atoms" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_atoms" object="${unitcell}" z="3iJwuLXfngZgMHigka10sUn22RU="/>
+        <field:display field="alternativeDesignations" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCell_alternativeDesignations" object="${unitcell}" z="ZRYEiayugDicZlG2eoA4mHMUmME="/>
+    </page:show>
+</div>

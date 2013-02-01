@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentOrientations" object="${materialcomponentorientations}" path="/materialcomponentorientationses" z="6nCr5u2USlyQ3M7qjc7euIovQ7E=">
+        <field:display field="crystal1" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentOrientations_crystal1" object="${materialcomponentorientations}" z="4q2JcQg2Nhbjq10BSk2aBXYKXQg="/>
+        <field:display field="crystal2" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentOrientations_crystal2" object="${materialcomponentorientations}" z="tM/9ZeMesSoPAOFPv7iXI4DC+sU="/>
+    </page:show>
+</div>

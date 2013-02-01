@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder" items="${temdoubletiltholders}" z="K/NDo+PdIqTuhZvsCTgkQWY6Q+E=">
+        <table:table data="${temdoubletiltholders}" id="l_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder" path="/temdoubletiltholders" z="D5Y6L8U6otM3oWMSNGGbsaysHTk=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_name" property="name" z="58lfk2vwAOFpbaIVQ6MhrTC0wvU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_tiltAxisRotationToVertical" property="tiltAxisRotationToVertical" z="V92kW2zGjI02qm01IT9HIIhhOj8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_azimuthAxisRotationToVertical" property="azimuthAxisRotationToVertical" z="u22/8nAwxOUZrWajhiF3OHe+2CQ="/>
+        </table:table>
+    </page:list>
+</div>

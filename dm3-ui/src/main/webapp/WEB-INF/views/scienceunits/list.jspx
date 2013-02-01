@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit" items="${scienceunits}" z="eUzlFmSlUNK1bXVd73ZcGRUW6zM=">
+        <table:table data="${scienceunits}" id="l_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit" path="/scienceunits" z="TQD9SLrYKJ6KIM4+6m3krv6Qu8Y=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_name" property="name" z="8pfjmVNxT9ThIHMaBRfIPXtCrBU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_symbol" property="symbol" z="yBmVsKPGMUPTStiSdTRASR/V+hU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_numerators" property="numerators" z="lt2QrZOT8RXTQynDxO5SpCXQScg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_denominators" property="denominators" z="SW1aDv7BEkj4HXa1CYt0JIEz/fc="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadataType" property="metadataType" z="n8CsKiKHLuy+dRqH4lJRRrRO5jk="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadata" property="metadata" z="h0e5f+S5Ue7xaPgz+DbhPDKuWJI="/>
+        </table:table>
+    </page:list>
+</div>

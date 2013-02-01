@@ -1,0 +1,561 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-01 21:08:51
+project --topLevelPackage com.lacunalabs.dm
+mongo setup --cloudFoundry
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.UnitType
+enum constant --name AMOUNT
+enum constant --name ELECTRIC_CURRENT
+enum constant --name LENGTH
+enum constant --name LUMINOUS_INTENSITY
+enum constant --name MASS
+enum constant --name SIU_TIME
+enum constant --name THERMODYNAMIC_TEMPERATURE
+enum constant --name NUMBER_UNIT
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+enum constant --name CONCISE
+enum constant --name RELATIVE_UNCERTAINTY
+enum constant --name STANDARD
+enum constant --name UNKOWN
+enum constant --name EXACT
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+enum constant --name STRING
+enum constant --name LINK
+enum constant --name HTML
+enum constant --name XML
+enum constant --name JSON
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.ParticleType
+enum constant --name NUCLEUS
+enum constant --name ATOM
+enum constant --name ION
+enum constant --name MOLECULE
+enum constant --name LEPTON
+enum constant --name BARYON
+enum constant --name QUARK
+enum constant --name GAUGE_BOSON
+enum constant --name MESON
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.ElementClassification
+enum constant --name METALLOID
+enum constant --name NONMETAL
+enum constant --name NONMETALl_HALOGEN
+enum constant --name NONMETAL_NOBLE_GAS
+enum constant --name METAL_ALKALI
+enum constant --name METAL_ALKALINE_EARTH
+enum constant --name METAL_LANTHANOID
+enum constant --name METAL_ACTINOID
+enum constant --name METALl_TRANSITION
+enum constant --name METAL_POST_TRANSITION
+enum type --class com.lacunalabs.dm.shared.physics.fundamental.PeriodicTableBlock
+enum constant --name s
+enum constant --name d
+enum constant --name p
+enum constant --name f
+enum type --class com.lacunalabs.dm.shared.physics.crystallography.CenteringType
+enum constant --name A
+enum constant --name B
+enum constant --name C
+enum constant --name F
+enum constant --name H
+enum constant --name I
+enum constant --name P
+enum constant --name R
+enum type --class com.lacunalabs.dm.shared.physics.crystallography.CrystalSystemType
+enum constant --name Triclinic
+enum constant --name Monoclinic
+enum constant --name Orthorhombic
+enum constant --name Rhombohedral
+enum constant --name Trigonal
+enum constant --name Hexagonal
+enum constant --name Tetragonal
+enum constant --name Cubic
+enum type --class com.lacunalabs.dm.shared.physics.crystallography.CrystalIdentifierType
+enum constant --name PEARSON_SYMBOL
+enum constant --name STRUKTURBERICHT
+enum constant --name PROTOTYPE
+enum type --class com.lacunalabs.dm.shared.math.geometry.VectorType
+enum constant --name Direction
+enum constant --name Plane
+entity mongo --class com.lacunalabs.dm.data.math.geometry.Shape3D --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.math.geometry.Shape2D --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.math.geometry.Vector3D --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.math.geometry.Vector2D --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.math.geometry.OrientationRelationship --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.math.geometry.Orientation --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.PhysicalConstant --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyTypeField --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.BaseUnit --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.ScienceUnit --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.Unit --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.Particle --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.ParticleEnumerator --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.ParticlePhysicalProperty --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.CompositeParticle --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.ParticleBeam --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.PeriodicTableEntry --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.fundamental.PeriodicTable --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.BravaisLattice --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.Centering --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.ReflectionCondition --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.PointGroup --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.SpaceGroup --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.AtomicPosition --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.UnitCellPhysicalProperty --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.UnitCellType --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.UnitCell  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.crystallography.LatticeVector3D --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.Crystal  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponentPhysicalProperty
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponent  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponentOrientations  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.MaterialPhysicalProperty --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.solidstate.Material  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.Aperature  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.LensPhysicalProperty  --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.TemDoubleTiltHolder --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.CcdCamera --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.instruments.Tem --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.experiment.Processor --testAutomatically
+entity mongo --class com.lacunalabs.dm.data.physics.experiment.TemExperiment --testAutomatically
+interface --class com.lacunalabs.dm.data.physics.instruments.SampleHolder
+field number --fieldName x --type java.math.BigDecimal --class com.lacunalabs.dm.data.math.geometry.Vector2D
+field number --fieldName y --type java.math.BigDecimal
+field string --fieldName name --class com.lacunalabs.dm.data.math.geometry.Shape2D
+field set --fieldName sides --type com.lacunalabs.dm.data.math.geometry.Vector2D
+field number --fieldName x --type java.math.BigDecimal --class com.lacunalabs.dm.data.math.geometry.Vector3D
+field number --fieldName y --type java.math.BigDecimal
+field number --fieldName z --type java.math.BigDecimal 
+field enum --fieldName vectorType --type com.lacunalabs.dm.shared.math.geometry.VectorType
+field string --fieldName name --class com.lacunalabs.dm.data.math.geometry.Shape3D
+field set --fieldName faces --type com.lacunalabs.dm.data.math.geometry.Vector3D
+field reference --fieldName aspect1Shape1 --type com.lacunalabs.dm.data.math.geometry.Vector3D --class com.lacunalabs.dm.data.math.geometry.OrientationRelationship
+field reference --fieldName aspect1Shape2 --type com.lacunalabs.dm.data.math.geometry.Vector3D 
+field reference --fieldName aspect2Shape1 --type com.lacunalabs.dm.data.math.geometry.Vector3D 
+field reference --fieldName aspect2Shape2 --type com.lacunalabs.dm.data.math.geometry.Vector3D 
+field number --fieldName rotationShape2AboutAspect1 --type java.math.BigDecimal 
+field number --fieldName rotationShape2AboutAspect2 --type java.math.BigDecimal 
+field reference --fieldName zAspect --type com.lacunalabs.dm.data.math.geometry.Vector3D --class com.lacunalabs.dm.data.math.geometry.Orientation
+field reference --fieldName yAspect --type com.lacunalabs.dm.data.math.geometry.Vector3D 
+field number --fieldName rotationAboutZ --type java.math.BigDecimal 
+field number --fieldName rotationAboutAspectY --type java.math.BigDecimal 
+field string --fieldName name  --class com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field number --fieldName multiplier --type java.math.BigDecimal
+field enum --fieldName base_quantity --type com.lacunalabs.dm.shared.physics.fundamental.UnitType --class com.lacunalabs.dm.data.physics.fundamental.BaseUnit
+field string --fieldName name 
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field reference --fieldName perferredDecimalMultiplier --type com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier
+field reference --fieldName baseUnit --type com.lacunalabs.dm.data.physics.fundamental.BaseUnit --class com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator
+field string --fieldName identifier 
+field number --fieldName exponent --type java.math.BigDecimal
+field number --fieldName multiplier --type java.math.BigDecimal
+field number --fieldName zeroOffset --type java.math.BigDecimal
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.ScienceUnit
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field set --fieldName numerators --type com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator --cardinality MANY_TO_MANY 
+field set --fieldName denominators --type com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator --cardinality MANY_TO_MANY
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.Unit
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field reference --fieldName referenceUnit --type com.lacunalabs.dm.data.physics.fundamental.ScienceUnit
+field boolean --fieldName isSIU
+field number --fieldName conversionToMultiplier --type java.math.BigDecimal
+field number --fieldName conversionToOffset --type java.math.BigDecimal
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.PhysicalConstant
+field string --fieldName symbol
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field number --fieldName quantity --type java.math.BigDecimal
+field reference --fieldName unit --type com.lacunalabs.dm.data.physics.fundamental.Unit
+field number --fieldName uncertainty --type java.math.BigDecimal
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType 
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field string --fieldName symbol 
+field reference --fieldName unit --type com.lacunalabs.dm.data.physics.fundamental.Unit
+field reference --fieldName perferredDecimalMultiplier --type com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field reference --fieldName physicalType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType --class com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyTypeField
+field string --fieldName fullFieldName
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.Particle
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field enum --fieldName particleType --type com.lacunalabs.dm.shared.physics.fundamental.ParticleType
+field number --fieldName charge --type java.math.BigDecimal 
+field number --fieldName mass --type java.math.BigDecimal 
+field number --fieldName spin --type java.math.BigDecimal
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field reference --fieldName particle --type com.lacunalabs.dm.data.physics.fundamental.Particle --class com.lacunalabs.dm.data.physics.fundamental.ParticleEnumerator
+field number --fieldName amount --type java.lang.Integer
+field string --fieldName name 
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.ParticlePhysicalProperty
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field reference --fieldName particle --type com.lacunalabs.dm.data.physics.fundamental.CompositeParticle --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.fundamental.CompositeParticle
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field set --fieldName particles --type com.lacunalabs.dm.data.physics.fundamental.ParticleEnumerator --cardinality MANY_TO_MANY
+field number --fieldName mass --type java.math.BigDecimal
+field enum --fieldName particleType --type com.lacunalabs.dm.shared.physics.fundamental.ParticleType
+field set --fieldName properties --type com.lacunalabs.dm.data.physics.fundamental.ParticlePhysicalProperty --cardinality ONE_TO_MANY
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field number --fieldName voltage --type java.math.BigDecimal --class com.lacunalabs.dm.data.physics.fundamental.ParticleBeam
+field reference --fieldName particle --type com.lacunalabs.dm.data.physics.fundamental.CompositeParticle
+field number --fieldName wavelength --type java.math.BigDecimal 
+field boolean --fieldName setByWavelength
+field number --fieldName intensity --type java.math.BigDecimal
+field reference --fieldName direction --type com.lacunalabs.dm.data.math.geometry.Vector3D
+field reference --fieldName atom --type com.lacunalabs.dm.data.physics.fundamental.CompositeParticle --class com.lacunalabs.dm.data.physics.fundamental.PeriodicTableEntry
+field number --fieldName period --type java.lang.Integer
+field number --fieldName tableGroup --type java.lang.Integer
+field enum   --fieldName block --type com.lacunalabs.dm.shared.physics.fundamental.PeriodicTableBlock
+field enum   --fieldName classification --type com.lacunalabs.dm.shared.physics.fundamental.ElementClassification
+field string --fieldName symbol
+field set --fieldName elements --type com.lacunalabs.dm.data.physics.fundamental.PeriodicTableEntry --class com.lacunalabs.dm.data.physics.fundamental.PeriodicTable
+field string --fieldName name 
+field string --fieldName name --class com.lacunalabs.dm.data.physics.crystallography.Centering
+field enum --fieldName centeringType --type com.lacunalabs.dm.shared.physics.crystallography.CenteringType
+field string --fieldName centerings
+field string --fieldName reflectionConditions
+field string --fieldName name --class com.lacunalabs.dm.data.physics.crystallography.PointGroup
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field reference --fieldName centering --type com.lacunalabs.dm.data.physics.crystallography.Centering
+field string --fieldName  reflectionConditions
+field string --fieldName  centerings
+field string --fieldName  coordinatePoints
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName name --class com.lacunalabs.dm.data.physics.crystallography.SpaceGroup
+field string --fieldName symbol --notNull --sizeMin 1 --sizeMax 10
+field reference --fieldName  pointGroup --type com.lacunalabs.dm.data.physics.crystallography.PointGroup
+field number    --fieldName  spaceGroupNumber --type java.lang.Integer
+field string    --fieldName  coordinatePoints
+field string --fieldName  generalReflectionConditions
+field string --fieldName  specialCoordinates
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field enum type --type com.lacunalabs.dm.shared.physics.crystallography.CrystalIdentifierType --class com.lacunalabs.dm.data.physics.crystallography.UnitCellType
+field string --fieldName designation
+field number --fieldName a --type java.math.BigDecimal --class com.lacunalabs.dm.data.physics.crystallography.BravaisLattice
+field number --fieldName b --type java.math.BigDecimal 
+field number --fieldName c --type java.math.BigDecimal 
+field number --fieldName alpha --type java.math.BigDecimal
+field number --fieldName gamma --type java.math.BigDecimal
+field number --fieldName beta --type java.math.BigDecimal
+field enum --fieldName crystalSystem --type com.lacunalabs.dm.shared.physics.crystallography.CrystalSystemType
+field reference --fieldName  centering --type com.lacunalabs.dm.data.physics.crystallography.Centering
+field number --fieldName x --type java.math.BigDecimal --class com.lacunalabs.dm.data.physics.crystallography.AtomicPosition
+field number --fieldName y --type java.math.BigDecimal 
+field number --fieldName z --type java.math.BigDecimal
+field number --fieldName occupancy --type java.math.BigDecimal
+field string --fieldName positionType
+field reference --fieldName  atom --type com.lacunalabs.dm.data.physics.fundamental.CompositeParticle
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType --class com.lacunalabs.dm.data.physics.crystallography.UnitCellPhysicalProperty
+field reference --fieldName crystal --type com.lacunalabs.dm.data.physics.crystallography.UnitCell --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.crystallography.UnitCell
+field string --fieldName symbol --sizeMax 20
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field reference --fieldName spaceGroup --type com.lacunalabs.dm.data.physics.crystallography.SpaceGroup
+field reference --fieldName lattice --type com.lacunalabs.dm.data.physics.crystallography.BravaisLattice 
+field set --fieldName atoms --type com.lacunalabs.dm.data.physics.crystallography.AtomicPosition --cardinality MANY_TO_MANY
+field set --fieldName alternativeDesignations --type com.lacunalabs.dm.data.physics.crystallography.UnitCellType
+field set --fieldName properties --type com.lacunalabs.dm.data.physics.crystallography.UnitCellPhysicalProperty --cardinality ONE_TO_MANY
+field reference --fieldName unitCell --type com.lacunalabs.dm.data.physics.crystallography.UnitCell --class com.lacunalabs.dm.data.physics.crystallography.LatticeVector3D
+field number --fieldName x --type java.math.BigDecimal
+field number --fieldName y --type java.math.BigDecimal 
+field number --fieldName z --type java.math.BigDecimal
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field reference --fieldName crystal --type com.lacunalabs.dm.data.physics.solidstate.Crystal --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.Crystal
+field reference --fieldName lattice --type com.lacunalabs.dm.data.physics.crystallography.UnitCell
+field reference --fieldName crystalShape --type com.lacunalabs.dm.data.math.geometry.Shape3D
+field set --fieldName properties --type com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty --cardinality ONE_TO_MANY
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponentPhysicalProperty
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field reference --fieldName materialComponent --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponent --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+field boolean --fieldName active
+field boolean --fieldName matrix
+field reference --fieldName crystal --type com.lacunalabs.dm.data.physics.solidstate.Crystal
+field number --fieldName totalVolume --type java.math.BigDecimal
+field set --fieldName properties --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponentPhysicalProperty --cardinality ONE_TO_MANY
+field set --fieldName orientations --type com.lacunalabs.dm.data.math.geometry.OrientationRelationship --cardinality ONE_TO_MANY --class com.lacunalabs.dm.data.physics.solidstate.MaterialComponentOrientations
+field reference --fieldName crystal1 --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+field reference --fieldName crystal2 --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.MaterialPhysicalProperty
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field reference --fieldName material --type com.lacunalabs.dm.data.physics.solidstate.Material --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.solidstate.Material
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field reference matrix --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+field set components --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+field set orientations --type com.lacunalabs.dm.data.physics.solidstate.MaterialComponentOrientations
+field number --fieldName totalVolume --type java.math.BigDecimal
+field reference --fieldName shape --type com.lacunalabs.dm.data.math.geometry.Shape3D
+field set --fieldName properties --type com.lacunalabs.dm.data.physics.solidstate.MaterialPhysicalProperty --cardinality ONE_TO_MANY
+field string --fieldName name  --class com.lacunalabs.dm.data.physics.instruments.Aperature
+field number --fieldName aperatureRadius --type java.math.BigDecimal
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName name --class com.lacunalabs.dm.data.physics.instruments.LensPhysicalProperty
+field reference --fieldName propertyType --type com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+field reference --fieldName lens --type com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens --cardinality MANY_TO_ONE
+field number --fieldName quantity --type java.math.BigDecimal
+field string --fieldName functionParameters
+field number --fieldName uncertainty --type java.math.BigDecimal 
+field enum --fieldName uncertaintyType --type com.lacunalabs.dm.shared.physics.fundamental.UncertaintyType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens
+field number --fieldName chromaticAberration --type java.math.BigDecimal
+field number --fieldName sphericalAberration --type java.math.BigDecimal
+field number --fieldName delVoltage --type java.math.BigDecimal
+field number --fieldName delCurrent --type java.math.BigDecimal 
+field number --fieldName chromaticSpread --type java.math.BigDecimal 
+field number --fieldName convergenceAngle --type java.math.BigDecimal 
+field number --fieldName astigmatism --type java.math.BigDecimal 
+field number --fieldName stigmaticAngle --type java.math.BigDecimal 
+field number --fieldName defocus --type java.math.BigDecimal 
+field number --fieldName defocusSpread ---type java.math.BigDecimal 
+field number --fieldName lensCurrent --type java.math.BigDecimal 
+field set --fieldName lensProperties --type com.lacunalabs.dm.data.physics.instruments.LensPhysicalProperty --cardinality ONE_TO_MANY
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName name --class com.lacunalabs.dm.data.physics.instruments.TemDoubleTiltHolder 
+field number --fieldName tiltAxisRotationToVertical ---type java.math.BigDecimal 
+field number --fieldName azimuthAxisRotationToVertical ---type java.math.BigDecimal 
+field string --fieldName name --class com.lacunalabs.dm.data.physics.instruments.CcdCamera
+field string --fieldName manufacturer
+field number --fieldName xResolution --type java.lang.Integer
+field number --fieldName yResolution --type java.lang.Integer
+field number --fieldName collectionEfficiency ---type java.math.BigDecimal
+field string --fieldName metadata
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName manufacturer --class com.lacunalabs.dm.data.physics.instruments.Tem
+field string --fieldName microscope 
+field reference --fieldName holder --type com.lacunalabs.dm.data.physics.instruments.TemDoubleTiltHolder
+field set --fieldName aperatures --type com.lacunalabs.dm.data.physics.instruments.Aperature --cardinality ONE_TO_MANY
+field set --fieldName objectiveLenses --type com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens --cardinality ONE_TO_MANY
+field reference --fieldName detector --type com.lacunalabs.dm.data.physics.instruments.CcdCamera
+field string --fieldName metadata
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName name --class com.lacunalabs.dm.data.physics.experiment.Processor
+field string --fieldName processClass --class com.lacunalabs.dm.data.physics.experiment.Processor
+field string --fieldName resultsClass
+field string --fieldName processInputTranslatorClass
+field string --fieldName resultsViewer
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field string --fieldName identifier --class com.lacunalabs.dm.data.physics.experiment.TemExperiment
+field enum --fieldName metadataType --type com.lacunalabs.dm.shared.physics.fundamental.MetaDataType
+field string --fieldName metadata
+field reference --fieldName tem --type com.lacunalabs.dm.data.physics.instruments.Tem
+field reference --fieldName aperature --type com.lacunalabs.dm.data.physics.instruments.Aperature
+field reference --fieldName objectiveLens --type com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens
+field set --fieldName processors --type com.lacunalabs.dm.data.physics.experiment.Processor
+field reference --fieldName sample --type com.lacunalabs.dm.data.physics.solidstate.Material
+field number --fieldName cameraLength ---type java.math.BigDecimal
+field number --fieldName cameraConstant ---type java.math.BigDecimal
+field boolean --fieldName setByCameraLength
+field number --fieldName tilt ---type java.math.BigDecimal  
+field number --fieldName azimuth ---type java.math.BigDecimal
+field reference --fieldName stagePosition --type com.lacunalabs.dm.data.math.geometry.Vector3D
+field number --fieldName exposureTime ---type java.math.BigDecimal
+field reference --fieldName beam --type com.lacunalabs.dm.data.physics.fundamental.ParticleBeam
+field reference --fieldName matrixOrientation --type com.lacunalabs.dm.data.math.geometry.Orientation --class com.lacunalabs.dm.data.physics.experiment.TemExperiment
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.Shape3DRepository --entity com.lacunalabs.dm.data.math.geometry.Shape3D 
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.Shape2DRepository --entity com.lacunalabs.dm.data.math.geometry.Shape2D
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.Vector3DRepository --entity com.lacunalabs.dm.data.math.geometry.Vector3D
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.Vector2DRepository --entity com.lacunalabs.dm.data.math.geometry.Vector2D
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.OrientationRelationshipRepository --entity com.lacunalabs.dm.data.math.geometry.OrientationRelationship
+repository mongo --interface com.lacunalabs.dm.data.repository.math.geometry.OrientationRepository --entity com.lacunalabs.dm.data.math.geometry.Orientation
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalConstantRepository --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalConstant
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalPropertyTypeRepository --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalPropertyTypeFieldRepository --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyTypeField
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.BaseUnitRepository --entity com.lacunalabs.dm.data.physics.fundamental.BaseUnit
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.ScienceUnitRepository --entity com.lacunalabs.dm.data.physics.fundamental.ScienceUnit
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.UnitRepository --entity com.lacunalabs.dm.data.physics.fundamental.Unit
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.DecimalMultiplierRepository --entity com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticlePhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.fundamental.ParticlePhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.BaseUnitEnumeratorRepository --entity com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleRepository --entity com.lacunalabs.dm.data.physics.fundamental.Particle
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleEnumeratorRepository --entity com.lacunalabs.dm.data.physics.fundamental.ParticleEnumerator
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.CompositeParticleRepository --entity com.lacunalabs.dm.data.physics.fundamental.CompositeParticle
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleBeamRepository --entity com.lacunalabs.dm.data.physics.fundamental.ParticleBeam 
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.PeriodicTableEntryRepository --entity com.lacunalabs.dm.data.physics.fundamental.PeriodicTableEntry
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.fundamental.PeriodicTableRepository --entity com.lacunalabs.dm.data.physics.fundamental.PeriodicTable
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.BravaisLatticeRepository --entity com.lacunalabs.dm.data.physics.crystallography.BravaisLattice
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.CenteringRepository --entity com.lacunalabs.dm.data.physics.crystallography.Centering
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.ReflectionConditionRepository --entity com.lacunalabs.dm.data.physics.crystallography.ReflectionCondition
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.PointGroupRepository --entity com.lacunalabs.dm.data.physics.crystallography.PointGroup
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.SpaceGroupRepository --entity com.lacunalabs.dm.data.physics.crystallography.SpaceGroup
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.AtomicPositionRepository --entity com.lacunalabs.dm.data.physics.crystallography.AtomicPosition
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellPhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.crystallography.UnitCellPhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellTypeRepository --entity com.lacunalabs.dm.data.physics.crystallography.UnitCellType
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellRepository --entity com.lacunalabs.dm.data.physics.crystallography.UnitCell
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.crystallography.LatticeVector3DRepository --entity com.lacunalabs.dm.data.physics.crystallography.LatticeVector3D
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.CrystalRepository --entity com.lacunalabs.dm.data.physics.solidstate.Crystal
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.CrystalPhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentRepository --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialRepository --entity com.lacunalabs.dm.data.physics.solidstate.Material
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentPhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponentPhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialPhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.solidstate.MaterialPhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentOrientationsRepository --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponentOrientations
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.AperatureRepository --entity com.lacunalabs.dm.data.physics.instruments.Aperature
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.LensPhysicalPropertyRepository --entity com.lacunalabs.dm.data.physics.instruments.LensPhysicalProperty
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.TemObjectiveLensRepository --entity com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.TemDoubleTiltHolderRepository --entity com.lacunalabs.dm.data.physics.instruments.TemDoubleTiltHolder
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.CcdCameraRepository --entity com.lacunalabs.dm.data.physics.instruments.CcdCamera
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.instruments.TemRepository --entity com.lacunalabs.dm.data.physics.instruments.Tem
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.experiment.ProcessorRepository --entity com.lacunalabs.dm.data.physics.experiment.Processor
+repository mongo --interface com.lacunalabs.dm.data.repository.physics.experiment.TemExperimentRepository --entity com.lacunalabs.dm.data.physics.experiment.TemExperiment
+service --interface com.lacunalabs.dm.data.repository.math.geometry.Shape3DService --entity com.lacunalabs.dm.data.math.geometry.Shape3D 
+service --interface com.lacunalabs.dm.data.repository.math.geometry.Shape2DService --entity com.lacunalabs.dm.data.math.geometry.Shape2D
+service --interface com.lacunalabs.dm.data.repository.math.geometry.Vector3DService --entity com.lacunalabs.dm.data.math.geometry.Vector3D
+service --interface com.lacunalabs.dm.data.repository.math.geometry.Vector2DService --entity com.lacunalabs.dm.data.math.geometry.Vector2D
+service --interface com.lacunalabs.dm.data.repository.math.geometry.OrientationRelationshipService --entity com.lacunalabs.dm.data.math.geometry.OrientationRelationship
+service --interface com.lacunalabs.dm.data.repository.math.geometry.OrientationService --entity com.lacunalabs.dm.data.math.geometry.Orientation
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalConstantService --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalConstant
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalPropertyTypeService --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.PhysicalPropertyTypeFieldService --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyTypeField
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.BaseUnitService --entity com.lacunalabs.dm.data.physics.fundamental.BaseUnit
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.ScienceUnitService --entity com.lacunalabs.dm.data.physics.fundamental.ScienceUnit
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.UnitService --entity com.lacunalabs.dm.data.physics.fundamental.Unit
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.DecimalMultiplierService --entity com.lacunalabs.dm.data.physics.fundamental.DecimalMultiplier
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.BaseUnitEnumeratorService --entity com.lacunalabs.dm.data.physics.fundamental.BaseUnitEnumerator
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleService --entity com.lacunalabs.dm.data.physics.fundamental.Particle
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticlePhysicalPropertyService --entity com.lacunalabs.dm.data.physics.fundamental.ParticlePhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleEnumeratorService --entity com.lacunalabs.dm.data.physics.fundamental.ParticleEnumerator
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.CompositeParticleService --entity com.lacunalabs.dm.data.physics.fundamental.CompositeParticle
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.ParticleBeamService --entity com.lacunalabs.dm.data.physics.fundamental.ParticleBeam 
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.PeriodicTableEntryService --entity com.lacunalabs.dm.data.physics.fundamental.PeriodicTableEntry
+service --interface com.lacunalabs.dm.data.repository.physics.fundamental.PeriodicTableService --entity com.lacunalabs.dm.data.physics.fundamental.PeriodicTable
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.BravaisLatticeService --entity com.lacunalabs.dm.data.physics.crystallography.BravaisLattice
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.CenteringService --entity com.lacunalabs.dm.data.physics.crystallography.Centering
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.ReflectionConditionService --entity com.lacunalabs.dm.data.physics.crystallography.ReflectionCondition
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.PointGroupService --entity com.lacunalabs.dm.data.physics.crystallography.PointGroup
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.SpaceGroupService --entity com.lacunalabs.dm.data.physics.crystallography.SpaceGroup
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.AtomicPositionService --entity com.lacunalabs.dm.data.physics.crystallography.AtomicPosition
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellTypeService --entity com.lacunalabs.dm.data.physics.crystallography.UnitCellType
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellService --entity com.lacunalabs.dm.data.physics.crystallography.UnitCell
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.UnitCellPhysicalPropertyService --entity com.lacunalabs.dm.data.physics.crystallography.UnitCellPhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.crystallography.LatticeVector3DService --entity com.lacunalabs.dm.data.physics.crystallography.LatticeVector3D
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.CrystalService --entity com.lacunalabs.dm.data.physics.solidstate.Crystal
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentService --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponent
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialService --entity com.lacunalabs.dm.data.physics.solidstate.Material
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.CrystalPhysicalPropertyService --entity com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentPhysicalPropertyService --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponentPhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialPhysicalPropertyService --entity com.lacunalabs.dm.data.physics.solidstate.MaterialPhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.solidstate.MaterialComponentOrientationsService --entity com.lacunalabs.dm.data.physics.solidstate.MaterialComponentOrientations
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.AperatureService --entity com.lacunalabs.dm.data.physics.instruments.Aperature
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.LensPhysicalPropertyService --entity com.lacunalabs.dm.data.physics.instruments.LensPhysicalProperty
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.TemObjectiveLensService --entity com.lacunalabs.dm.data.physics.instruments.TemObjectiveLens
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.TemDoubleTiltHolderService --entity com.lacunalabs.dm.data.physics.instruments.TemDoubleTiltHolder
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.CcdCameraService --entity com.lacunalabs.dm.data.physics.instruments.CcdCamera
+service --interface com.lacunalabs.dm.data.repository.physics.instruments.TemService --entity com.lacunalabs.dm.data.physics.instruments.Tem
+service --interface com.lacunalabs.dm.data.repository.physics.experiment.ProcessorService --entity com.lacunalabs.dm.data.physics.experiment.Processor
+service --interface com.lacunalabs.dm.data.repository.physics.experiment.TemExperimentService --entity com.lacunalabs.dm.data.physics.experiment.TemExperiment
+test integration --entity com.lacunalabs.dm.data.physics.fundamental.BaseUnit
+test integration --entity com.lacunalabs.dm.data.physics.fundamental.Unit
+test integration --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalConstant
+test integration --entity com.lacunalabs.dm.data.physics.solidstate.CrystalPhysicalProperty
+test integration --entity com.lacunalabs.dm.data.physics.fundamental.PhysicalPropertyType
+test integration --entity com.lacunalabs.dm.data.physics.fundamental.Particle
+web mvc setup
+web mvc all --package com.lacunalabs.dm.web
+web mvc json all --package com.lacunalabs.dm.web 
+web mvc finder all
+web mvc language --code de
+web mvc language --code es
+web mvc language --code en
+logging setup --level INFO
+perform eclipse
+perform package
+// script dm_3.roo
+quit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-01 21:11:22
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-05-02 19:59:30
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+perform package
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-05-10 16:45:42
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-05-11 14:27:45
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-05-16 15:33:33
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-06-02 17:15:49
+hint jms
+help jms
+help jms setup
+hint addon
+help addon
+addon list
+download status
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-06-05 09:24:34
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-08-22 19:15:48
+hint
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-08-26 15:33:14
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-08-26 15:38:11
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-08-30 14:22:18
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-14 17:11:00
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-15 09:37:32

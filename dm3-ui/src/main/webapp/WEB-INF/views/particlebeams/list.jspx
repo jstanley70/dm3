@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam" items="${particlebeams}" z="RsI7ZjK8rvOd9Y5wGPYogXwUeY8=">
+        <table:table data="${particlebeams}" id="l_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam" path="/particlebeams" z="fySsTetZx+EJ+2b/2YYz0F4NioE=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_voltage" property="voltage" z="CszhHZA16cVZyB4nkFu/cVCwf3k="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_particle" property="particle" z="klIH2cStp7Zi5oAUbWYmksxS340="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_wavelength" property="wavelength" z="qospcfvZLMFAOFaIj4ejMFytX+s="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_setByWavelength" property="setByWavelength" z="REP/kXrZrQiODEDQQF8FQpnR5V8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_intensity" property="intensity" z="TTgfCeE0F7J/YJUICxQPjx+evLI="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_direction" property="direction" z="AKT80MDCVzoRxWXmYu5T+gNexAc="/>
+        </table:table>
+    </page:list>
+</div>

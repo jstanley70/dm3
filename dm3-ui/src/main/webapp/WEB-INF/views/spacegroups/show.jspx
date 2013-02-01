@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup" object="${spacegroup}" path="/spacegroups" z="raZSeEiO4STicqg40dYaxf2odlE=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_name" object="${spacegroup}" z="QLx1mdPx3dFwivmEqrc2oRtg8cM="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_symbol" object="${spacegroup}" z="HrPhgZ5BAKL4Z8Lx2p8zPmiTtZo="/>
+        <field:display field="pointGroup" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_pointGroup" object="${spacegroup}" z="FPXmIsRzNe7ww7KycTnxUA9Q7QU="/>
+        <field:display field="spaceGroupNumber" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_spaceGroupNumber" object="${spacegroup}" z="uf50TgfyC7tFXszTRx4kYZ0+YbA="/>
+        <field:display field="coordinatePoints" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_coordinatePoints" object="${spacegroup}" z="g72uwYZ830AqNB1wn7oXLafcT0g="/>
+        <field:display field="generalReflectionConditions" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_generalReflectionConditions" object="${spacegroup}" z="NI9RQ8ajDlRR+y8ZcBz9cXeaTr4="/>
+        <field:display field="specialCoordinates" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_specialCoordinates" object="${spacegroup}" z="LIqaO6kOTQTcAcS2Ho1GA/3MbCk="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_metadataType" object="${spacegroup}" z="tGjwfowPzXMZDVa6xfnA9jtr+to="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_crystallography_SpaceGroup_metadata" object="${spacegroup}" z="3iuvpW5AvRjjLJ3ID+tjUeLTFp4="/>
+    </page:show>
+</div>

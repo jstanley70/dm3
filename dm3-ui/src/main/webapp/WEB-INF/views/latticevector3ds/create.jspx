@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D" modelAttribute="latticeVector3D" path="/latticevector3ds" render="${empty dependencies}" z="vD3SIEuIYb4DiXytM18T528yPWI=">
+        <field:select field="unitCell" id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_unitCell" itemValue="id" items="${unitcells}" path="/unitcells" z="cO8ZOIA65cUmNNTA/5GdTFMmMMM="/>
+        <field:input field="x" id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_x" validationMessageCode="field_invalid_number" z="lbexrwTZIFpKOl3sTZxhvTqglX0="/>
+        <field:input field="y" id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_y" validationMessageCode="field_invalid_number" z="7CkzgZHrCIHCughOOKQEOxX2AmE="/>
+        <field:input field="z" id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_z" validationMessageCode="field_invalid_number" z="bpng8q6VR8dtMgsj0Oiz3ZZh4V0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D" render="${not empty dependencies}" z="OV2bAa1q122eaEZ1DYRmsVz1Lk8="/>
+</div>

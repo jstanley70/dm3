@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_instruments_Tem" modelAttribute="tem" path="/tems" versionField="none" z="8ycHlMjPSxO991Ik1g3/fjwxoI0=">
+        <field:input field="manufacturer" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_manufacturer" z="yOjngUKqve0WJ2xIqboVije+PRg="/>
+        <field:input field="microscope" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_microscope" z="isylIU/KKY2oHO3AnvLCc14OYoE="/>
+        <field:select field="holder" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_holder" itemValue="id" items="${temdoubletiltholders}" path="/temdoubletiltholders" z="evztGWtxZDt/eHapoNrdEdvdpJY="/>
+        <field:simple field="aperatures" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_aperatures" messageCode="entity_reference_not_managed" messageCodeAttribute="Aperature" z="cmRfIVPVsiFoQEqJDlj2BjIUyM8="/>
+        <field:simple field="objectiveLenses" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_objectiveLenses" messageCode="entity_reference_not_managed" messageCodeAttribute="Tem Objective Lens" z="viFu6WSIVxc/yKZAJizuRxT8uq0="/>
+        <field:select field="detector" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_detector" itemValue="id" items="${ccdcameras}" path="/ccdcameras" z="RTmRbUblhU/0ZCUDLBW4kYh8x40="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_metadata" z="Uf+SIdKe1FuQurByiTbiVEZGohc="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_instruments_Tem_metadataType" items="${metadatatypes}" path="metadatatypes" z="u3qAX82Ei4C+sUDD79yhsWDHB5c="/>
+    </form:update>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="ccdcameras/list">
+        <put-attribute name="body" value="/WEB-INF/views/ccdcameras/list.jspx"/>
+    </definition>
+<definition extends="default" name="ccdcameras/show">
+        <put-attribute name="body" value="/WEB-INF/views/ccdcameras/show.jspx"/>
+    </definition>
+<definition extends="default" name="ccdcameras/create">
+        <put-attribute name="body" value="/WEB-INF/views/ccdcameras/create.jspx"/>
+    </definition>
+<definition extends="default" name="ccdcameras/update">
+        <put-attribute name="body" value="/WEB-INF/views/ccdcameras/update.jspx"/>
+    </definition>
+</tiles-definitions>

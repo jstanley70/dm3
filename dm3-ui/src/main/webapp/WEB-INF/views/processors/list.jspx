@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_experiment_Processor" items="${processors}" z="61EU1l3R5icbSG80Kvj3ta9ACWU=">
+        <table:table data="${processors}" id="l_com_lacunalabs_dm_data_physics_experiment_Processor" path="/processors" z="GMSpyPs63445BHNP3XL63+pvFUY=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_name" property="name" z="NLve99aBUJaA9M/rDdphULda9lQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_processClass" property="processClass" z="FsMjQl2cq6khWZy3HTR5o5KonS0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_resultsClass" property="resultsClass" z="c5o1eO8+6vhS94ap+Kz4k7ZJ6G8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_processInputTranslatorClass" property="processInputTranslatorClass" z="h60FXEJHexepSavVp3K4A6t+SDM="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_resultsViewer" property="resultsViewer" z="Lhqw1Yax4T8oMJyvqtU8/aunxBM="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_Processor_metadataType" property="metadataType" z="bP4TkklFDC1einlsKzk3UA2NyXQ="/>
+        </table:table>
+    </page:list>
+</div>

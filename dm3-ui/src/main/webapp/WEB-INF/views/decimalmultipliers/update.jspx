@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_fundamental_DecimalMultiplier" modelAttribute="decimalMultiplier" path="/decimalmultipliers" versionField="none" z="jdEqdkHqyHqQPIsINc71m4hNtK4=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_fundamental_DecimalMultiplier_name" z="LL/ysDZ5PN5qI103CcFf6SOdb4I="/>
+        <field:input field="symbol" id="c_com_lacunalabs_dm_data_physics_fundamental_DecimalMultiplier_symbol" max="10" min="1" required="true" z="Xw4UmLYN9XfcYVdU04szsrWG+y8="/>
+        <field:input field="multiplier" id="c_com_lacunalabs_dm_data_physics_fundamental_DecimalMultiplier_multiplier" validationMessageCode="field_invalid_number" z="EPVVopy/xeEflIl5VMroIjtvm+w="/>
+    </form:update>
+</div>

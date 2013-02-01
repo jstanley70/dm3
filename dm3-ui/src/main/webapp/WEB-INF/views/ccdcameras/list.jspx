@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_CcdCamera" items="${ccdcameras}" z="mh/+lNzSvoFLgOasvzAVmVcg5ho=">
+        <table:table data="${ccdcameras}" id="l_com_lacunalabs_dm_data_physics_instruments_CcdCamera" path="/ccdcameras" z="0e2Y4STrPJV6TLkZLeAbXVceCvw=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_name" property="name" z="cQolLMjOXn+yvtAH0fwR7jfVn7U="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_manufacturer" property="manufacturer" z="HoCi0Bp9T1Jb5khpmLpdH/jPHZ8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_xResolution" property="XResolution" z="xAjvCKSjjbhApJHTcx2z7qFglrY="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_yResolution" property="YResolution" z="7IqzPNQFyNhjTFbg90yv8ow/3ew="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_collectionEfficiency" property="collectionEfficiency" z="jCWyuluPtP0qLyL79GfCyRKN0gU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_CcdCamera_metadata" property="metadata" z="huwVztOymf2vrtwoO22xCb0S5Po="/>
+        </table:table>
+    </page:list>
+</div>

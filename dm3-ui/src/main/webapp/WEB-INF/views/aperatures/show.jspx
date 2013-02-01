@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_instruments_Aperature" object="${aperature}" path="/aperatures" z="lqZ94u/9Rpc7x5sjpj2ijF063KE=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_instruments_Aperature_name" object="${aperature}" z="PqtClu9/D0XkkYmh8e04XcnxIms="/>
+        <field:display field="aperatureRadius" id="s_com_lacunalabs_dm_data_physics_instruments_Aperature_aperatureRadius" object="${aperature}" z="zBQIrZj1wlmmwPCesVhefapeiOg="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_instruments_Aperature_metadataType" object="${aperature}" z="d8mP5ETu901ZcA6IHZPKhykAxsY="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_instruments_Aperature_metadata" object="${aperature}" z="oLsfItR8j0C/rl/bICQzifOQJqI="/>
+    </page:show>
+</div>

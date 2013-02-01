@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_Centering" items="${centerings}" z="jXd4n1nH9++zmJeev7t69CA0kFU=">
+        <table:table data="${centerings}" id="l_com_lacunalabs_dm_data_physics_crystallography_Centering" path="/centerings" z="Jpgt/7dstphjVJQiPCXrX1PwXxM=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_Centering_name" property="name" z="N+mzAellYiJqx2a/cGceSIPylDQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_Centering_centeringType" property="centeringType" z="m4H6l406mbibWGMhPPY0M25/qJw="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_Centering_centerings" property="centerings" z="zkmB3Va7Mg6FWljggx61VMkrgyo="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_Centering_reflectionConditions" property="reflectionConditions" z="cLGxDFLLrUr5yLtQg54BOP28mVw="/>
+        </table:table>
+    </page:list>
+</div>

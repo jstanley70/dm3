@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_solidstate_Material" object="${material}" path="/materials" z="ykGTSyQlZWsZpfyYoJH44MS48m0=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_name" object="${material}" z="Y3q7vRV/A+R02iK1uCNUXFa4gEM="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_metadataType" object="${material}" z="oQiNyJTXqMFx7qx0Gx4sYdopVo0="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_metadata" object="${material}" z="FJb9T5XxkGHm5aeUYdppMXZuFxA="/>
+        <field:display field="components" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_components" object="${material}" z="xJqpyjWhEni5klZSxDOwr9fBVVY="/>
+        <field:display field="orientations" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_orientations" object="${material}" z="+UCGH12t2/7T/f96cb+Lr4MqZN8="/>
+        <field:display field="totalVolume" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_totalVolume" object="${material}" z="mgB15OqwpiFlfoaPIHg9MdtJHmA="/>
+        <field:display field="shape" id="s_com_lacunalabs_dm_data_physics_solidstate_Material_shape" object="${material}" z="faOPllawIwujwJ9RN8HbOupred0="/>
+    </page:show>
+</div>

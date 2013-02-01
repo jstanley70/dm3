@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder" modelAttribute="temDoubleTiltHolder" path="/temdoubletiltholders" versionField="none" z="yqv0jeqhY7M/SN4QEX2P3FjQqF0=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_name" z="eCjcg1KcCIBknXjvw8isy7nIt30="/>
+        <field:input field="tiltAxisRotationToVertical" id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_tiltAxisRotationToVertical" validationMessageCode="field_invalid_number" z="63thGqWikTbZqmxKkZ/y3Jg3xf8="/>
+        <field:input field="azimuthAxisRotationToVertical" id="c_com_lacunalabs_dm_data_physics_instruments_TemDoubleTiltHolder_azimuthAxisRotationToVertical" validationMessageCode="field_invalid_number" z="LtV4fG24L0CUSGVPOObBVlu2CM0="/>
+    </form:update>
+</div>

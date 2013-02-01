@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_UnitCellType" object="${unitcelltype}" path="/unitcelltypes" z="Bxuesk07n8BPF8j5T6tVmJ9pUk8=">
+        <field:display field="type" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellType_type" object="${unitcelltype}" z="kpYAmS1SaqTkcHUvd2YAsYFgM+k="/>
+        <field:display field="designation" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellType_designation" object="${unitcelltype}" z="Le4IDlM3ETAh7VpXY+EEUYavriI="/>
+    </page:show>
+</div>

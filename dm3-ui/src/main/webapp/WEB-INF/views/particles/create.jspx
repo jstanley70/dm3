@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_fundamental_Particle" modelAttribute="particle" path="/particles" render="${empty dependencies}" z="UEd14mJ8HggypEciTTq4jFIe4zw=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_name" z="aX5MtlI1ucaTyzNxfmuVKxFFlnU="/>
+        <field:input field="symbol" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_symbol" max="10" min="1" required="true" z="2qv6gM7Y5MgCNUjfRTv34wszfoA="/>
+        <field:select field="particleType" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_particleType" items="${particletypes}" path="particletypes" z="QR8MkPqdoKWqyciwz0cMpBeISXM="/>
+        <field:input field="charge" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_charge" validationMessageCode="field_invalid_number" z="NF9i+mstPfzrqt6zp1DOvQENPNo="/>
+        <field:input field="mass" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_mass" validationMessageCode="field_invalid_number" z="80PcmZmtAwea/Q76f4OowFn1JaU="/>
+        <field:input field="spin" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_spin" validationMessageCode="field_invalid_number" z="8BI4Mxf5pTqXRAgipe3PGoEPsTs="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_metadataType" items="${metadatatypes}" path="metadatatypes" z="1r++6U2GsJbrgfmJ4Oqb7IDcf5E="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_metadata" z="CXsV2JcW9aqbs6X2LKDGGye9Ags="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_fundamental_Particle" render="${not empty dependencies}" z="bs1jgsvSdL7bCe823Hu9MtRG27Y="/>
+</div>

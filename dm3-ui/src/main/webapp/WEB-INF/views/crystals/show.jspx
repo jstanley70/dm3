@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_solidstate_Crystal" object="${crystal}" path="/crystals" z="aSPhPAl5Ak2UTrVrlIZuIZ0TvKw=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_solidstate_Crystal_name" object="${crystal}" z="wd0OiR1gjklNx9ZJdYuu1k+7Oyo="/>
+        <field:display field="lattice" id="s_com_lacunalabs_dm_data_physics_solidstate_Crystal_lattice" object="${crystal}" z="0Gc6J6Ykn74DvaSEC/TUdca5duE="/>
+        <field:display field="crystalShape" id="s_com_lacunalabs_dm_data_physics_solidstate_Crystal_crystalShape" object="${crystal}" z="rJab2lMyfJVvpPYPc6fXyidwwGY="/>
+    </page:show>
+</div>

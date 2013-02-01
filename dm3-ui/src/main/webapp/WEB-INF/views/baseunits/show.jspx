@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_BaseUnit" object="${baseunit}" path="/baseunits" z="uv/VMytOI3eYwkjOHBlO3PZkdF4=">
+        <field:display field="base_quantity" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_base_quantity" object="${baseunit}" z="WuuXQbfud0wAtYd33VFKmytIk6s="/>
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_name" object="${baseunit}" z="UQK+HF6GpIMLIft0z6vKaWuh+1o="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_symbol" object="${baseunit}" z="C3UC2dfX3hbTaTbcDeJgLZLUwxM="/>
+        <field:display field="perferredDecimalMultiplier" id="s_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_perferredDecimalMultiplier" object="${baseunit}" z="tQNHZTslIM9CL/ruYaq+0hy6Ob8="/>
+    </page:show>
+</div>

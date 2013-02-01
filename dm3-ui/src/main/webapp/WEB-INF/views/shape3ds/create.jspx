@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_math_geometry_Shape3D" modelAttribute="shape3D" path="/shape3ds" render="${empty dependencies}" z="Zo3GGL9HupT6rJc/YppPlgOIvcc=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_math_geometry_Shape3D_name" z="Pl6Ok/rbp2C7lrYfcK1dG3DQXj4="/>
+        <field:select field="faces" id="c_com_lacunalabs_dm_data_math_geometry_Shape3D_faces" itemValue="id" items="${vector3ds}" multiple="true" path="/vector3ds" z="82Im2J2hC86+EhjrNMqSQQ730ng="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_math_geometry_Shape3D" render="${not empty dependencies}" z="EkmAgwY1zFhlA1NVPkUygM6S0uE="/>
+</div>

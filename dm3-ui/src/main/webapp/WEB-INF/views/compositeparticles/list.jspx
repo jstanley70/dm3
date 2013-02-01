@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle" items="${compositeparticles}" z="cxbcWoH9Hrq14I4T9TrknOypMtw=">
+        <table:table data="${compositeparticles}" id="l_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle" path="/compositeparticles" z="v5aGb0pwmu/5ycwwKKFA87wfBYU=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle_name" property="name" z="OEI/Maeuwo/8j06FhQOwuJWfOQs="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle_symbol" property="symbol" z="AZjTyQDIZiYl4OndeL95aVgbHeo="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle_particles" property="particles" z="6fE9hveiZWBy4hpT4x9YAbkBNqU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle_mass" property="mass" z="MySdhNh/n/5VUqrMSHzDz+qGZb4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_CompositeParticle_particleType" property="particleType" z="q+IRDTlZwq6Rg9uu1W+md6hRhQs="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_Centering" object="${centering}" path="/centerings" z="SjlFH5ZUXF03hFyePqmhHM9CPDk=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_crystallography_Centering_name" object="${centering}" z="MpeXMLeYkJvQB13oiKEr6RBVRT8="/>
+        <field:display field="centeringType" id="s_com_lacunalabs_dm_data_physics_crystallography_Centering_centeringType" object="${centering}" z="bOzPApYlnM8oALJVVw2820GtNwc="/>
+        <field:display field="centerings" id="s_com_lacunalabs_dm_data_physics_crystallography_Centering_centerings" object="${centering}" z="s4joIW83lBN9IzVdLwxeU7ovNHM="/>
+        <field:display field="reflectionConditions" id="s_com_lacunalabs_dm_data_physics_crystallography_Centering_reflectionConditions" object="${centering}" z="v2eeAzkrSchekXUkDFiCF5TUmcQ="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="orientationrelationships/list">
+        <put-attribute name="body" value="/WEB-INF/views/orientationrelationships/list.jspx"/>
+    </definition>
+<definition extends="default" name="orientationrelationships/show">
+        <put-attribute name="body" value="/WEB-INF/views/orientationrelationships/show.jspx"/>
+    </definition>
+<definition extends="default" name="orientationrelationships/create">
+        <put-attribute name="body" value="/WEB-INF/views/orientationrelationships/create.jspx"/>
+    </definition>
+<definition extends="default" name="orientationrelationships/update">
+        <put-attribute name="body" value="/WEB-INF/views/orientationrelationships/update.jspx"/>
+    </definition>
+</tiles-definitions>

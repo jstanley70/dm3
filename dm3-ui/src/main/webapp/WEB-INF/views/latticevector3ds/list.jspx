@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D" items="${latticevector3ds}" z="oHgy+sASihBQi/krIa5lI4RvBgo=">
+        <table:table data="${latticevector3ds}" id="l_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D" path="/latticevector3ds" z="4LMkNKsgwzF40fRBdlxum74x+fo=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_unitCell" property="unitCell" z="olgnvBCAYFDdEQY2S1RHMwR4jQs="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_x" property="x" z="zQ0os1ksWyUdt2d/FmjLKOv/ozE="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_y" property="y" z="oKjnOKq0LC8jOrDmqZ47fP4MFVg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_LatticeVector3D_z" property="z" z="j6/DwVoj5o1KWbsN7ea+xnqLcrM="/>
+        </table:table>
+    </page:list>
+</div>

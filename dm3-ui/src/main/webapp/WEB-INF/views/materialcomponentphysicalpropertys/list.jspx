@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty" items="${materialcomponentphysicalpropertys}" z="ElZWHdR136dTuCiT1IP6rompflU=">
+        <table:table data="${materialcomponentphysicalpropertys}" id="l_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty" path="/materialcomponentphysicalpropertys" z="JzgZs+dpmQW3v0etfcQi5OaRG+0=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_name" property="name" z="wWjabEi3H4v96oOfYZjisCu1zOo="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_propertyType" property="propertyType" z="oenUCMwJhP3axXTCSd6CUUS3p0U="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_materialComponent" property="materialComponent" z="kw54MLrHe4GexI860kEFtCDW4Ww="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_quantity" property="quantity" z="haSq+wvt6/2KvOlnwMQ6Vo2pLes="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_functionParameters" property="functionParameters" z="2VXGN/KS+3SuZNJIavjTSvLJLQ0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_uncertainty" property="uncertainty" z="Mti70EwijAmRyQ1AEuVrYBU5qI4="/>
+        </table:table>
+    </page:list>
+</div>

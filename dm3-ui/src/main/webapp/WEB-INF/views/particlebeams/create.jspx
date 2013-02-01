@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam" modelAttribute="particleBeam" path="/particlebeams" render="${empty dependencies}" z="NXNmIczSR8MSZtiUzpjnQc2S89w=">
+        <field:input field="voltage" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_voltage" validationMessageCode="field_invalid_number" z="4FskEyf88ztHZbLM29h+H6RzZ1U="/>
+        <field:select field="particle" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_particle" itemValue="id" items="${compositeparticles}" path="/compositeparticles" z="PHNFTUNEWNRsnwSmsZFS0ieMSMw="/>
+        <field:input field="wavelength" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_wavelength" validationMessageCode="field_invalid_number" z="xqvbUijdeA5kQ4bDIWpXcJ8ehlU="/>
+        <field:checkbox field="setByWavelength" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_setByWavelength" z="T86JLJLUzEvm42ZaLSpWJxeuyEc="/>
+        <field:input field="intensity" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_intensity" validationMessageCode="field_invalid_number" z="pHVwdKpha5Jxs/mPWc+5fI8WfMY="/>
+        <field:select field="direction" id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam_direction" itemValue="id" items="${vector3ds}" path="/vector3ds" z="mm5lX+Fj+QZrwe9ISsmF2isFWIg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_fundamental_ParticleBeam" render="${not empty dependencies}" z="79zDc3wcb0/Ka+uSNExrijboWNg="/>
+</div>

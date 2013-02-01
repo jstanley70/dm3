@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit" modelAttribute="scienceUnit" path="/scienceunits" render="${empty dependencies}" z="8fr+I/9zetVzDE2pcXb6v/cR7zY=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_name" z="YLm/ddYv5c0WPmpDUESIqxvPbTc="/>
+        <field:input field="symbol" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_symbol" max="10" min="1" required="true" z="x5lF0tjOkIzKpDBEBD1FyrC3AVI="/>
+        <field:select field="numerators" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_numerators" itemValue="id" items="${baseunitenumerators}" multiple="true" path="/baseunitenumerators" z="TtoqvlqhkWzuNt/n4gh7vOz1e9A="/>
+        <field:select field="denominators" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_denominators" itemValue="id" items="${baseunitenumerators}" multiple="true" path="/baseunitenumerators" z="4F+kDHR23HfoD93ZedujQ0KbiCQ="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadataType" items="${metadatatypes}" path="metadatatypes" z="vNQGevoAP2wuZUstmOr5k7u24hI="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadata" z="7uBpVXtuRdE7yaDUrKXEwnIKMQ0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit" render="${not empty dependencies}" z="iH/WB2zhJMhuFuL1/CmhGY4XliY="/>
+</div>

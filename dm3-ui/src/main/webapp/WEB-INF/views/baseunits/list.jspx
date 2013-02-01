@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_BaseUnit" items="${baseunits}" z="U1Ikgj/rHp1MdLUFTun1BpIShZY=">
+        <table:table data="${baseunits}" id="l_com_lacunalabs_dm_data_physics_fundamental_BaseUnit" path="/baseunits" z="mr93Sg0yBXmdqfMyX+WV89XnL04=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_base_quantity" property="base_quantity" z="9Q/r+jHJ1Cm3Am6cc4aT54FZMBY="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_name" property="name" z="Qo1Mk3yH8688+PcA7oDpVIXkTEQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_symbol" property="symbol" z="Wcnnk4lkYtVQ9BQ67WF2HHODlv4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_perferredDecimalMultiplier" property="perferredDecimalMultiplier" z="9bu4Pv5KiYTGlXrZkm0/Mvhy1/w="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens" modelAttribute="temObjectiveLens" path="/temobjectivelenses" render="${empty dependencies}" z="RUo0A5uE4ruAxdFkP4wuyRANPw0=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_name" z="BAJTdVVT0iIHjItbFmpUNbvFK9k="/>
+        <field:input field="chromaticAberration" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticAberration" validationMessageCode="field_invalid_number" z="AUp5+0ce0JiSKHhMVwkV2FJ5JQ0="/>
+        <field:input field="sphericalAberration" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_sphericalAberration" validationMessageCode="field_invalid_number" z="RaZDQXgUEMjU8JJYmjqnz/MsJDY="/>
+        <field:input field="delVoltage" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delVoltage" validationMessageCode="field_invalid_number" z="SZpxtdpXJ4O1PJ4JMeuoJbSYw1Q="/>
+        <field:input field="delCurrent" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delCurrent" validationMessageCode="field_invalid_number" z="ur3A3vhDTWuPglNHKfGDmUdBJ98="/>
+        <field:input field="chromaticSpread" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticSpread" validationMessageCode="field_invalid_number" z="b/vILCBGs+pO9h8z+09U+t8R8yc="/>
+        <field:input field="convergenceAngle" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_convergenceAngle" validationMessageCode="field_invalid_number" z="5uM9CcNyG7toquqURTpDp0KRpKI="/>
+        <field:input field="astigmatism" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_astigmatism" validationMessageCode="field_invalid_number" z="xLfAMmDQElDOfDZ62KBQFymA5Yo="/>
+        <field:input field="stigmaticAngle" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_stigmaticAngle" validationMessageCode="field_invalid_number" z="tCh2T90D5AZOJxx2+xXHIbm5AR4="/>
+        <field:input field="defocus" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_defocus" validationMessageCode="field_invalid_number" z="K1JdwW/2smL9snJdDPa6+8vBhKk="/>
+        <field:input field="defocusSpread" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_defocusSpread" validationMessageCode="field_invalid_number" z="WhYfOqaLSA/zJf9F9E4UySjN5as="/>
+        <field:input field="lensCurrent" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_lensCurrent" validationMessageCode="field_invalid_number" z="D3bUyv/ArX9Wy82mpUbsdXk+gSM="/>
+        <field:simple field="lensProperties" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_lensProperties" messageCode="entity_reference_not_managed" messageCodeAttribute="Lens Physical Property" z="9DHQi7n972sbzJ3iS342AU8+wQk="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_metadataType" items="${metadatatypes}" path="metadatatypes" z="5kIJJF5ocLMpqvUU1QFiT/Sa/1Y="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_metadata" z="UEWzy/EARip3wfWh/tHAgM2zKhc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens" render="${not empty dependencies}" z="La1UQk0unxkZjw2aqw1C6rLewQ4="/>
+</div>

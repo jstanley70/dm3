@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_Unit" object="${unit}" path="/units" z="Ro+0I/v97fW+g0i5LKTWLwF8l04=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_name" object="${unit}" z="IvhKD/zRS/ja35zizittV1yCnBM="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_symbol" object="${unit}" z="c4RmDnr4Oang6/XBnOonyM8KV3w="/>
+        <field:display field="referenceUnit" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_referenceUnit" object="${unit}" z="6Jx5HAHP2A5+QfDtRpEAicD0Vas="/>
+        <field:display field="isSIU" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_isSIU" object="${unit}" z="m2IGb5aLxBGGcBy4O07TNHXFijk="/>
+        <field:display field="conversionToMultiplier" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_conversionToMultiplier" object="${unit}" z="A6i7yKwM2dBNcT32J5W6Xr3akiU="/>
+        <field:display field="conversionToOffset" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_conversionToOffset" object="${unit}" z="nK0mSzoGeblrmdaZhfBa4lIVMPs="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_metadataType" object="${unit}" z="KztJKkK5PM6TRmRilzDkZUEvqBE="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_fundamental_Unit_metadata" object="${unit}" z="TjyX4Tx+5OIYtSV+cJGEBAlA6zo="/>
+    </page:show>
+</div>

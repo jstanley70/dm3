@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty" modelAttribute="crystalPhysicalProperty" path="/crystalphysicalpropertys" versionField="none" z="/LS7Mz8E3iQXVgVMZJ08/rMHyvM=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_name" z="43cLE1bm5c80Io4lud620Y9Qe5s="/>
+        <field:select field="propertyType" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_propertyType" itemValue="id" items="${physicalpropertytypes}" path="/physicalpropertytypes" z="9y6D+rQsRBSJPu0TfhjKx5dtCCE="/>
+        <field:select field="crystal" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_crystal" itemValue="id" items="${crystals}" path="/crystals" z="DOxBieTiRROHlJ6bDJ/LqJzQ/5Q="/>
+        <field:input field="quantity" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_quantity" validationMessageCode="field_invalid_number" z="JVKUvTPFdXs5n1Sb1KaY0lCkiz4="/>
+        <field:input field="functionParameters" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_functionParameters" z="pMDwMOW9dqhUL0tzoDnnH3vHi0w="/>
+        <field:input field="uncertainty" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_uncertainty" validationMessageCode="field_invalid_number" z="xks1kiAdK6qqyIBQJhR4kLl6EnY="/>
+        <field:select field="uncertaintyType" id="c_com_lacunalabs_dm_data_physics_solidstate_CrystalPhysicalProperty_uncertaintyType" items="${uncertaintytypes}" path="uncertaintytypes" z="WZQuerwla9J6cmy1O1sLzti5SN0="/>
+    </form:update>
+</div>

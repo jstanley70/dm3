@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_instruments_Aperature" modelAttribute="aperature" path="/aperatures" render="${empty dependencies}" z="9K/p7dSHl8vY1NncVAVD5Be5nDQ=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_name" z="EpsaTs0++2gGxmVRpobCDiRULNI="/>
+        <field:input field="aperatureRadius" id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_aperatureRadius" validationMessageCode="field_invalid_number" z="yAOsMISslB/sBhM8gMBoarzOMb8="/>
+        <field:select field="metadataType" id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_metadataType" items="${metadatatypes}" path="metadatatypes" z="+xDO9bf5KbewjRPRcDssn+fLENc="/>
+        <field:input field="metadata" id="c_com_lacunalabs_dm_data_physics_instruments_Aperature_metadata" z="sy5vBD0b1SRg3VZ0HA99YR7+Yf4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_instruments_Aperature" render="${not empty dependencies}" z="28s0VW/2LojN/vZ74Salov0vdeU="/>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_fundamental_BaseUnit" modelAttribute="baseUnit" path="/baseunits" versionField="none" z="IkI/p4yoRR6yYpzGI8A6zxIhYLQ=">
+        <field:select field="base_quantity" id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_base_quantity" items="${unittypes}" path="unittypes" z="PMs3AK8NwD6x1nfbhYVQ7nUkixw="/>
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_name" z="6Pr02KUmPv3TvNsgm6dhkC4RO4k="/>
+        <field:input field="symbol" id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_symbol" max="10" min="1" required="true" z="nScwV8UorSr3dDHDfALyJpRBRU8="/>
+        <field:select field="perferredDecimalMultiplier" id="c_com_lacunalabs_dm_data_physics_fundamental_BaseUnit_perferredDecimalMultiplier" itemValue="id" items="${decimalmultipliers}" path="/decimalmultipliers" z="k8/3KimcGhmQCgTpZuz5iRzI4Rg="/>
+    </form:update>
+</div>

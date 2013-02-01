@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_Tem" items="${tems}" z="wBY40rAeiO3YdnLKfwYg3tHvCA8=">
+        <table:table data="${tems}" id="l_com_lacunalabs_dm_data_physics_instruments_Tem" path="/tems" z="XM+ncEgChZnCoiCe6srr04yWe2k=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Tem_manufacturer" property="manufacturer" z="2ccntpzM2XlACli2+NydAuWKaYQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Tem_microscope" property="microscope" z="1FlfBJtdzrm+eFn2m3HY389KGnE="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Tem_holder" property="holder" z="iOuXZ5AtrchX7PqzIAXvrlSJ1sw="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_Tem_detector" property="detector" z="313G1Td0VjMacwaz/EnEWFXplUc="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_math_geometry_Orientation" items="${orientations}" z="n99WtsYqKy7m7xPwB7lkbxHQMIo=">
+        <table:table data="${orientations}" id="l_com_lacunalabs_dm_data_math_geometry_Orientation" path="/orientations" z="RNgjiGzhAE+Jpb63uWEWB7NulyA=">
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Orientation_zAspect" property="ZAspect" z="ZSyOEjGKt9mfpe+B3sMkiurCebs="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Orientation_yAspect" property="YAspect" z="QXUp4uSBJL8gYQcAYVXq6bZPiZw="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Orientation_rotationAboutZ" property="rotationAboutZ" z="F5qryoODYhL90X/ECRwGCyQDC2Y="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Orientation_rotationAboutAspectY" property="rotationAboutAspectY" z="ZftoWHP0smblh6qPovwjTxa4Shg="/>
+        </table:table>
+    </page:list>
+</div>

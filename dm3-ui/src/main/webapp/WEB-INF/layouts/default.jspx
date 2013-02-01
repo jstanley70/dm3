@@ -1,0 +1,6 @@
+<div xmlns:tiles="http://tiles.apache.org/tags-tiles" class="container">
+	<tiles:insertAttribute name="body"/> 
+	<tiles:insertAttribute name="controls" ignore="true"/>
+	<tiles:insertAttribute name="footer" ignore="true"/>
+</div>
+

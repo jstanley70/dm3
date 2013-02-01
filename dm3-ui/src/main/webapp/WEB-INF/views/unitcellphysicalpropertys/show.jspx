@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty" object="${unitcellphysicalproperty}" path="/unitcellphysicalpropertys" z="RExxPdNX3Li0U+P4Xb74/G/m/+s=">
+        <field:display field="propertyType" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_propertyType" object="${unitcellphysicalproperty}" z="2Yb4FDQuXiW2ysZjURp9rjP/Yw0="/>
+        <field:display field="crystal" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_crystal" object="${unitcellphysicalproperty}" z="RjdrzpFah7pheIAKSPZdxt3Xbng="/>
+        <field:display field="quantity" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_quantity" object="${unitcellphysicalproperty}" z="3SaXS3Tsko134znq8kQGfCVkYCQ="/>
+        <field:display field="functionParameters" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_functionParameters" object="${unitcellphysicalproperty}" z="/QQXLRJrveG56LbCWRL9MdZeVrE="/>
+        <field:display field="uncertainty" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_uncertainty" object="${unitcellphysicalproperty}" z="a3XrIZQ17Cx+jWKVxZhvIrkks3c="/>
+        <field:display field="uncertaintyType" id="s_com_lacunalabs_dm_data_physics_crystallography_UnitCellPhysicalProperty_uncertaintyType" object="${unitcellphysicalproperty}" z="5rE11wMBK38RsSc5WLcimdqPWJ0="/>
+    </page:show>
+</div>

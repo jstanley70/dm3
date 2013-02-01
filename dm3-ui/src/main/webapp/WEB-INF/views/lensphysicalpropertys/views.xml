@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="lensphysicalpropertys/list">
+        <put-attribute name="body" value="/WEB-INF/views/lensphysicalpropertys/list.jspx"/>
+    </definition>
+<definition extends="default" name="lensphysicalpropertys/show">
+        <put-attribute name="body" value="/WEB-INF/views/lensphysicalpropertys/show.jspx"/>
+    </definition>
+<definition extends="default" name="lensphysicalpropertys/create">
+        <put-attribute name="body" value="/WEB-INF/views/lensphysicalpropertys/create.jspx"/>
+    </definition>
+<definition extends="default" name="lensphysicalpropertys/update">
+        <put-attribute name="body" value="/WEB-INF/views/lensphysicalpropertys/update.jspx"/>
+    </definition>
+</tiles-definitions>

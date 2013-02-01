@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_UnitCellType" items="${unitcelltypes}" z="gCvLYkqL7WCJX7BQKp5NgqdUXF4=">
+        <table:table data="${unitcelltypes}" id="l_com_lacunalabs_dm_data_physics_crystallography_UnitCellType" path="/unitcelltypes" z="x68SvKDETM0PGqgR1COsmZMBQE0=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCellType_type" property="type" z="N5g0tKfOw7icfUINlMMclMJPr9c="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCellType_designation" property="designation" z="0+Ez1+m9597TBCJ7hCUK0qyntjM="/>
+        </table:table>
+    </page:list>
+</div>

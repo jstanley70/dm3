@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_instruments_CcdCamera" object="${ccdcamera}" path="/ccdcameras" z="jdEncXVwx/QviL335sfE3RNXxWQ=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_name" object="${ccdcamera}" z="JgnWDuuEa436BMcn0m+Rztly+74="/>
+        <field:display field="manufacturer" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_manufacturer" object="${ccdcamera}" z="2UudjYGRTu6ZClB+1T4ovKR8SKo="/>
+        <field:display field="XResolution" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_xResolution" object="${ccdcamera}" z="Zc1GDMfijrYny+kyqw17dWgIWSI="/>
+        <field:display field="YResolution" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_yResolution" object="${ccdcamera}" z="cedoJsCJEufYNpbshfuwhb4HnAQ="/>
+        <field:display field="collectionEfficiency" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_collectionEfficiency" object="${ccdcamera}" z="nWnQtTsn/dlEoDw+DS0tfL3z18Q="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_metadata" object="${ccdcamera}" z="ELTu4kx6Rgv9r6j6uDY83WBXIk0="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_instruments_CcdCamera_metadataType" object="${ccdcamera}" z="AZHdnZp+In+stW4I/C8lDP7BAdI="/>
+    </page:show>
+</div>

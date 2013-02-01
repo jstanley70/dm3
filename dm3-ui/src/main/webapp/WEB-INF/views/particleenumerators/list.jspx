@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator" items="${particleenumerators}" z="+R51vKJrMQNuvK/VXr0ma+rQmag=">
+        <table:table data="${particleenumerators}" id="l_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator" path="/particleenumerators" z="fgN8P/x8qPXaloDYgrgzOLnsa3g=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_particle" property="particle" z="wJ1hrICtqbi678HohrSi0YB3Ydg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_amount" property="amount" z="NPiFh71Oavyhjfie/3lPHce4/sE="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_name" property="name" z="NqsqOi3Y3w5bBpxd9wI32h1LAPw="/>
+        </table:table>
+    </page:list>
+</div>

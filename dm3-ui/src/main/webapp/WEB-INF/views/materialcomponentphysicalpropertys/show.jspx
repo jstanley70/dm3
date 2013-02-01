@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty" object="${materialcomponentphysicalproperty}" path="/materialcomponentphysicalpropertys" z="bK7zJR9SjQIv5+Uh/Knr0zQJDrE=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_name" object="${materialcomponentphysicalproperty}" z="oeQZhI/uC0kxkPDIKhT1dHUhFBM="/>
+        <field:display field="propertyType" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_propertyType" object="${materialcomponentphysicalproperty}" z="H04V5wE0mU3HH4slyYepJzJ3pPo="/>
+        <field:display field="materialComponent" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_materialComponent" object="${materialcomponentphysicalproperty}" z="+kzLPdOfd1TUNNzje/6Lj8jzD0w="/>
+        <field:display field="quantity" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_quantity" object="${materialcomponentphysicalproperty}" z="UxzJoh3eE/Ox+rtrMjLD+8PrNAs="/>
+        <field:display field="functionParameters" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_functionParameters" object="${materialcomponentphysicalproperty}" z="fBYe2KoIH+f3MtT0ubvCbCsF8Kg="/>
+        <field:display field="uncertainty" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_uncertainty" object="${materialcomponentphysicalproperty}" z="kMVz99G4eXqlugaeaxQce30RlYA="/>
+        <field:display field="uncertaintyType" id="s_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_uncertaintyType" object="${materialcomponentphysicalproperty}" z="75BvX3MV6q2GFZtE4gYQJeNpdRw="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry" modelAttribute="periodicTableEntry" path="/periodictableentrys" versionField="none" z="IwOwA0HoMQHfAzzF6VE/1n648vE=">
+        <field:select field="atom" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_atom" itemValue="id" items="${compositeparticles}" path="/compositeparticles" z="I9XpQLqI4kuGpCjrV4UVwvuq+Ao="/>
+        <field:input field="period" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_period" validationMessageCode="field_invalid_integer" z="c6rfYIkIieCBIM+zWka5R65Igdc="/>
+        <field:input field="tableGroup" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_tableGroup" validationMessageCode="field_invalid_integer" z="25m9In8En/IM8YIEt+irKJ0TboE="/>
+        <field:select field="block" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_block" items="${periodictableblocks}" path="periodictableblocks" z="ChYuPsqcdEF9WgZz+TFwBBVYPLw="/>
+        <field:select field="classification" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_classification" items="${elementclassifications}" path="elementclassifications" z="vBiHY+YaOKnwpxE+zXCHky9cQu0="/>
+        <field:input field="symbol" id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_symbol" z="N0DyTs1ASNugXjH0d20QdMtMOUE="/>
+    </form:update>
+</div>

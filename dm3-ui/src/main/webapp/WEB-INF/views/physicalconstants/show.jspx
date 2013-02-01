@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant" object="${physicalconstant}" path="/physicalconstants" z="3nRj7q5ZSuAm1wUb4BcqvO1DuIk=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_name" object="${physicalconstant}" z="uwRzIBgs/apJczKMDHInmuAEq18="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_symbol" object="${physicalconstant}" z="pz3l4UZrlSFRkp88cFjphdboHSY="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_metadataType" object="${physicalconstant}" z="2HHnyWL5NMwWS3eVIREYGw3IsP4="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_metadata" object="${physicalconstant}" z="Y9GA7rpKAZMFHilDxBlvMte2mN4="/>
+        <field:display field="quantity" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_quantity" object="${physicalconstant}" z="gcfchyTzWGkttRUN9sCPE4GXrNc="/>
+        <field:display field="unit" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_unit" object="${physicalconstant}" z="bD85zyfhxDs/3OrujQi1cPO+muE="/>
+        <field:display field="uncertainty" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_uncertainty" object="${physicalconstant}" z="McIdnarXX45qmOKYVYNV4CHPIRw="/>
+        <field:display field="uncertaintyType" id="s_com_lacunalabs_dm_data_physics_fundamental_PhysicalConstant_uncertaintyType" object="${physicalconstant}" z="4frTZDt++cytDcrm49iP+AEhgHo="/>
+    </page:show>
+</div>

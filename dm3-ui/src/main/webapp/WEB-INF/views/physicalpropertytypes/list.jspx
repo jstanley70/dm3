@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType" items="${physicalpropertytypes}" z="18YwQy9yOAqbck8fUQdWeNS3eOA=">
+        <table:table data="${physicalpropertytypes}" id="l_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType" path="/physicalpropertytypes" z="99hdlOgGdo3h/A0m9FfI2IAfTWw=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_name" property="name" z="GM9EEufRWoEfKL99hpWZjlGvi8s="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_symbol" property="symbol" z="fDyfR87xxMFgbDNPFy73pt7ygEo="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_unit" property="unit" z="zEMf7kovxpkZYVCdwc2VjGIehAc="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_perferredDecimalMultiplier" property="perferredDecimalMultiplier" z="UbWYn2GBZHOebH4qxueZXLGCS+o="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_metadataType" property="metadataType" z="BzVkYN1l3EexieORJChje0pJZRU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PhysicalPropertyType_metadata" property="metadata" z="IysL7sQiWMd4jIb1TIcqB/GaGOY="/>
+        </table:table>
+    </page:list>
+</div>

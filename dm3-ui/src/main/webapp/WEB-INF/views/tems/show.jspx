@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_instruments_Tem" object="${tem}" path="/tems" z="V00ugXEplLAHZTyOiNdYowxZkzg=">
+        <field:display field="manufacturer" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_manufacturer" object="${tem}" z="KIfCuzm4/efeD+UGbI9Lj7iVTbw="/>
+        <field:display field="microscope" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_microscope" object="${tem}" z="Yxt3ensAqFmvSmGqYoG4ZuImKkw="/>
+        <field:display field="holder" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_holder" object="${tem}" z="LE1usDWPhDy1zCXuZNIYjqQr3rU="/>
+        <field:display field="detector" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_detector" object="${tem}" z="sO9Pf47XJa8Si7+MY2rJgp2AHCw="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_metadata" object="${tem}" z="1LNi7lgIapJxi4sZOwhzZzgCM3k="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_instruments_Tem_metadataType" object="${tem}" z="fwruMUymtAMrfJBnvTci7WTzEi8="/>
+    </page:show>
+</div>

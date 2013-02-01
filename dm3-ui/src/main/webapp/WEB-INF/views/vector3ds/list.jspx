@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_math_geometry_Vector3D" items="${vector3ds}" z="IzExpeI63qBPn58fOcN4Mt3z3Ts=">
+        <table:table data="${vector3ds}" id="l_com_lacunalabs_dm_data_math_geometry_Vector3D" path="/vector3ds" z="TsRxSPaksrZ4PZTdoeZF36s9nLY=">
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector3D_x" property="x" z="2KftsLiKdT9PDi5UN9NyTmu3F1o="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector3D_y" property="y" z="ydd7Oylqrh3HOxrYa0oFPpGZtL8="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector3D_z" property="z" z="AZkGbRFCxctwe4Y9LUGemRnMXX4="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_Vector3D_vectorType" property="vectorType" z="/zPcyVmIlobTpQZYm7wCj/HkKuE="/>
+        </table:table>
+    </page:list>
+</div>

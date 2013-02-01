@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry" object="${periodictableentry}" path="/periodictableentrys" z="XAsKRKmhee3lqg+p53VwNsSU6FQ=">
+        <field:display field="atom" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_atom" object="${periodictableentry}" z="lkwwsgYZd3KyX5pevUJtL/5Pjg4="/>
+        <field:display field="period" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_period" object="${periodictableentry}" z="RD+fU9uMjZSf/abzJHD09VV3Imk="/>
+        <field:display field="tableGroup" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_tableGroup" object="${periodictableentry}" z="JSnjzpKyywTJOkrT52Ts1IQOr/M="/>
+        <field:display field="block" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_block" object="${periodictableentry}" z="/ZIfoXXmj/RWXP/PMLt10uTKjXc="/>
+        <field:display field="classification" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_classification" object="${periodictableentry}" z="B9SR+Ul9/B29szpd4+U1DclZTFk="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_symbol" object="${periodictableentry}" z="nicOcsVS0HNVwGCeUXQUoh67uqk="/>
+    </page:show>
+</div>

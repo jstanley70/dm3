@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit" object="${scienceunit}" path="/scienceunits" z="Npo4tkq3eavjoSkUXAEB5pewSpI=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_name" object="${scienceunit}" z="0lPy0YmLfvld52np4L3YH3s4eKU="/>
+        <field:display field="symbol" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_symbol" object="${scienceunit}" z="RZRFghMe1iQrbVXnbLkdlH0Qb6w="/>
+        <field:display field="numerators" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_numerators" object="${scienceunit}" z="qnXPnNzsDOuSpxNm0Mm2l/7pzeE="/>
+        <field:display field="denominators" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_denominators" object="${scienceunit}" z="rQ7wAwlcmzEF8HiiahXtoX7xbg8="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadataType" object="${scienceunit}" z="v/8kDZZL5Tc/v6T/bMvjeuRU8og="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_fundamental_ScienceUnit_metadata" object="${scienceunit}" z="BI167Xvs5I2kUFVl1HOoyw3YmY8="/>
+    </page:show>
+</div>

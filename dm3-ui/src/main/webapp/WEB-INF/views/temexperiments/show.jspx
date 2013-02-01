@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_experiment_TemExperiment" object="${temexperiment}" path="/temexperiments" z="51wKBfDpol+0NRayDS+VJCSWNpM=">
+        <field:display field="identifier" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_identifier" object="${temexperiment}" z="uot3WduEhj2hSZOdoqjX26zxfXA="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadataType" object="${temexperiment}" z="4gvSyxYQ+3YbmZnYYbaZ7UGr77c="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadata" object="${temexperiment}" z="2NYabK/VfpGu2qOUlQzSK8BMv/4="/>
+        <field:display field="tem" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_tem" object="${temexperiment}" z="GBilJ2Iekt+VeaooH8Y9UVamIH0="/>
+        <field:display field="aperature" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_aperature" object="${temexperiment}" z="Sj2ffUC2r0r2vGLCqW278QP84sw="/>
+        <field:display field="objectiveLens" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_objectiveLens" object="${temexperiment}" z="zztfKh3pZN/0hoEiB8FCoX1B3jM="/>
+        <field:display field="processors" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_processors" object="${temexperiment}" z="Hn1IvzCehtV06VPg56p3aLeQP6k="/>
+        <field:display field="sample" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_sample" object="${temexperiment}" z="jWwDoPS0XSpoRv35MdkqWYQJ1+E="/>
+        <field:display field="cameraLength" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_cameraLength" object="${temexperiment}" z="omXyUuAH6R+j1HYIFEbtGcGrLto="/>
+        <field:display field="cameraConstant" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_cameraConstant" object="${temexperiment}" z="kmjGyym02ia7tXaXRW35A/QJvFA="/>
+        <field:display field="setByCameraLength" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_setByCameraLength" object="${temexperiment}" z="trN8Lwn61DEfkiKAH57lFpZuV/g="/>
+        <field:display field="tilt" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_tilt" object="${temexperiment}" z="+T7de2fgVjVLm/8qgzn6MObPp8E="/>
+        <field:display field="azimuth" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_azimuth" object="${temexperiment}" z="Jpdpra/ex3+nuhyUjnWlMAub2iY="/>
+        <field:display field="stagePosition" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_stagePosition" object="${temexperiment}" z="qyRdjeLq+fGS7I3+4vqltB5JRQI="/>
+        <field:display field="exposureTime" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_exposureTime" object="${temexperiment}" z="OmJbkYN/U9JGyqRG2liHrsKR6ig="/>
+        <field:display field="beam" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_beam" object="${temexperiment}" z="o7rpa1XyAHdG+fzTnajJJnOK0yQ="/>
+        <field:display field="matrixOrientation" id="s_com_lacunalabs_dm_data_physics_experiment_TemExperiment_matrixOrientation" object="${temexperiment}" z="Xq3VetJ6PCvutPn/9pemONTy2vU="/>
+    </page:show>
+</div>

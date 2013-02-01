@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_experiment_Processor" object="${processor}" path="/processors" z="q9zXqvAwzVx60kEyqwkes0JUqGQ=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_name" object="${processor}" z="AE5qIkcfHI7unbJcy01JcbxQT4o="/>
+        <field:display field="processClass" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_processClass" object="${processor}" z="P2gyGOVPN4b9U6JefMFnDxoRytc="/>
+        <field:display field="resultsClass" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_resultsClass" object="${processor}" z="90oYWopOjNRCx4oBCM90v6h/OqA="/>
+        <field:display field="processInputTranslatorClass" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_processInputTranslatorClass" object="${processor}" z="u3PDv/PwTdvDczOzjt0eD5cnpKw="/>
+        <field:display field="resultsViewer" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_resultsViewer" object="${processor}" z="Duwoc2Sv1H473tymibjBGrPahqQ="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_metadataType" object="${processor}" z="fEbzriYDmu7NooXLexRcK3Leu3I="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_experiment_Processor_metadata" object="${processor}" z="WXYvzhJytkqXpWYhKTDhvT+n1b4="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_crystallography_UnitCell" items="${unitcells}" z="2JSOyQuyeGhBkQ/MqnDfC5o6/Qs=">
+        <table:table data="${unitcells}" id="l_com_lacunalabs_dm_data_physics_crystallography_UnitCell" path="/unitcells" z="7+RzcLZTuDP90nFS9Q/NqgVrUhg=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_name" property="name" z="RwDUkPeZVbRKwj2boR2WWz8Efy4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_symbol" property="symbol" z="jn5V4ljSLAw4mg4gfyw7FTB0+Yk="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_metadataType" property="metadataType" z="Y8fo6kjsDRTk4AW4ogtZeulfGJY="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_metadata" property="metadata" z="Kc3MnxF+BEnY9IvLAsgXDymTzzg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_spaceGroup" property="spaceGroup" z="fI7D8j6zVa7BOfyHwdHAEzMAmNs="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_crystallography_UnitCell_lattice" property="lattice" z="MfzbQrNhqHoV+QBqWZSnnjLKN0Y="/>
+        </table:table>
+    </page:list>
+</div>

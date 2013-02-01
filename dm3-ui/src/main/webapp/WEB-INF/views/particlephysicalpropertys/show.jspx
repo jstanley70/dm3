@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty" object="${particlephysicalproperty}" path="/particlephysicalpropertys" z="C6H9D+M447pbLDQWfEd/rUxgu2E=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_name" object="${particlephysicalproperty}" z="BGkdbG7mURum66y3ngYyVsk72uk="/>
+        <field:display field="propertyType" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_propertyType" object="${particlephysicalproperty}" z="IkcGi0Zh+vfkcWHU1jrsd5Kougs="/>
+        <field:display field="particle" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_particle" object="${particlephysicalproperty}" z="So4Z1dkPPUMovdXjARVxswXxUy0="/>
+        <field:display field="quantity" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_quantity" object="${particlephysicalproperty}" z="a6fXjFy0wRNqvgmt2U+jZDQ026g="/>
+        <field:display field="functionParameters" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_functionParameters" object="${particlephysicalproperty}" z="k/KneCzV5q/TOwY/XaNSdLKwR6w="/>
+        <field:display field="uncertainty" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_uncertainty" object="${particlephysicalproperty}" z="bTZu7N69GavnH4+H0EWgWDks3xQ="/>
+        <field:display field="uncertaintyType" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticlePhysicalProperty_uncertaintyType" object="${particlephysicalproperty}" z="gerhG1VfhkRWaP2tl7l56pRj7tw="/>
+    </page:show>
+</div>

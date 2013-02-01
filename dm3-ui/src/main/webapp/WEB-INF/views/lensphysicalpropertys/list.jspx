@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty" items="${lensphysicalpropertys}" z="7EbA/+vZDZYeIQdzA9yCa00DIhk=">
+        <table:table data="${lensphysicalpropertys}" id="l_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty" path="/lensphysicalpropertys" z="QfVY+1hLDNAGF99OKHqiyqW2GFY=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_name" property="name" z="8j40fEVm1Ux5Oi34ToPWmhVOhys="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_propertyType" property="propertyType" z="NhklBrMvOo1J/uIByCS+N9hDV9U="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_lens" property="lens" z="ZPBpyKhnihQ8xaYJj5MYjTlYy50="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_quantity" property="quantity" z="iOji3N26W7fG9jjZL6FpFRSidrU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_functionParameters" property="functionParameters" z="Bl+IUcYHQ2bFDt2rqnpuueQezBc="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_uncertainty" property="uncertainty" z="hTCP357UsB7B7Hk2ZAr/Dz2KJn0="/>
+        </table:table>
+    </page:list>
+</div>

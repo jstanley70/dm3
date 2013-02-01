@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice" modelAttribute="bravaisLattice" path="/bravaislattices" versionField="none" z="KPnzluGvkbRyth4JvDgwyQE1JZs=">
+        <field:input decimalMax="1.0E-6" decimalMin="1.0E-16" field="a" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_a" required="true" validationMessageCode="field_invalid_number" z="KOelwSMLTqg8U28od3/QXFvlInc="/>
+        <field:input decimalMax="1.0E-6" decimalMin="1.0E-16" field="b" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_b" required="true" validationMessageCode="field_invalid_number" z="XEXWz3fyPT7M+0vAFHkYa6oqlF0="/>
+        <field:input decimalMax="1.0E-6" decimalMin="1.0E-16" field="c" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_c" required="true" validationMessageCode="field_invalid_number" z="I2pLVsrHtmhTrKHfF9CAM3gvYtg="/>
+        <field:input decimalMax="120" decimalMin="-120" field="alpha" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_alpha" required="true" validationMessageCode="field_invalid_number" z="Z0SlJN8A8bfxDNBiacCDLImk9O8="/>
+        <field:input decimalMax="120" decimalMin="-120" field="gamma" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_gamma" required="true" validationMessageCode="field_invalid_number" z="8od/VIKQkATdajhIcxoBneMPNRc="/>
+        <field:input decimalMax="120" decimalMin="-120" field="beta" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_beta" required="true" validationMessageCode="field_invalid_number" z="+q6hSEw7e31iuTb456gq45gOXqA="/>
+        <field:select field="crystalSystem" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_crystalSystem" items="${crystalsystemtypes}" path="crystalsystemtypes" z="dJ5aVfHi1D/FW7lPQSS0gLl1LdU="/>
+        <field:select field="centering" id="c_com_lacunalabs_dm_data_physics_crystallography_BravaisLattice_centering" itemValue="id" items="${centerings}" path="/centerings" z="llI5Nv0FstOJKbvFOqYnUywespQ="/>
+    </form:update>
+</div>

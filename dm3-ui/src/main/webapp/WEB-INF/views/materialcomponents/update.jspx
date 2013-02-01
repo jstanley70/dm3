@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent" modelAttribute="materialComponent" path="/materialcomponents" versionField="none" z="XBRuV3N4TuDRaU4wHuEiP4AMghs=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_name" z="DAkIBsR8Vu86Bex7wFx4+AJUGNs="/>
+        <field:checkbox field="active" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_active" z="az3fefQGP15CFLiScUIA7Slt6cE="/>
+        <field:checkbox field="matrix" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_matrix" z="7NYb1UzFx9zaFjhQFiQqxVAFIZI="/>
+        <field:select field="crystal" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_crystal" itemValue="id" items="${crystals}" path="/crystals" z="hh2PPT7WnABRn3ey/9SEGmEcaF4="/>
+        <field:input field="totalVolume" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_totalVolume" validationMessageCode="field_invalid_number" z="cCvY4SvKg+Q5O3ehb43qiDrSwWY="/>
+        <field:simple field="properties" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponent_properties" messageCode="entity_reference_not_managed" messageCodeAttribute="Material Component Physical Property" z="ympZvAh5DFcXXwRJMMAZDJh9g6w="/>
+    </form:update>
+</div>

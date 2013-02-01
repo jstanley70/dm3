@@ -1,0 +1,7 @@
+package com.lacunalabs.dm.shared.physics.fundamental;
+
+
+public enum ElementClassification {
+
+    METALLOID, NONMETAL, NONMETALl_HALOGEN, NONMETAL_NOBLE_GAS, METAL_ALKALI, METAL_ALKALINE_EARTH, METAL_LANTHANOID, METAL_ACTINOID, METALl_TRANSITION, METAL_POST_TRANSITION;
+}

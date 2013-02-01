@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty" modelAttribute="lensPhysicalProperty" path="/lensphysicalpropertys" render="${empty dependencies}" z="6zInLuFPvuNmhMlCh5pJzvRrZf0=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_name" z="aejt40y6ZqQ3FDVnDNlHPctyuq4="/>
+        <field:select field="propertyType" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_propertyType" itemValue="id" items="${physicalpropertytypes}" path="/physicalpropertytypes" z="1DB3ILnn6hL9/qzzp6YgIZdRjWk="/>
+        <field:select field="lens" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_lens" itemValue="id" items="${temobjectivelenses}" path="/temobjectivelenses" z="m8bR62nY0wwPKa6QeIcWcaoYI70="/>
+        <field:input field="quantity" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_quantity" validationMessageCode="field_invalid_number" z="4swEmF0M0FvQmOrQLUzG2Zrdi5E="/>
+        <field:input field="functionParameters" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_functionParameters" z="79ChT4Mp69hovmooS4ponOADvvo="/>
+        <field:input field="uncertainty" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_uncertainty" validationMessageCode="field_invalid_number" z="nSdBnRCNSxtdlab5dHe4tCYqPdQ="/>
+        <field:select field="uncertaintyType" id="c_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty_uncertaintyType" items="${uncertaintytypes}" path="uncertaintytypes" z="A+Jq4B7d9vCV4ESmGjik8zH9vCg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_lacunalabs_dm_data_physics_instruments_LensPhysicalProperty" render="${not empty dependencies}" z="yioOH4bwJRhFZ4ydRiHg72IKj3U="/>
+</div>

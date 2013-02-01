@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_Particle" items="${particles}" z="eglfCVz1NWpwK8j+heMUtxhSg/c=">
+        <table:table data="${particles}" id="l_com_lacunalabs_dm_data_physics_fundamental_Particle" path="/particles" z="vbTTwYEAmhFqKpesGFKDyOx2Ob0=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_name" property="name" z="KA41pgvSzoDz/7PQvgfpJHEmNC0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_symbol" property="symbol" z="Mk30ghfA6SFHybCNUoHNdjCTb2k="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_particleType" property="particleType" z="Q1ag70rbT6p2jZY4ViwhmKxxDHY="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_charge" property="charge" z="8CH9YkROuLDfNl0Dxk1vOuYpyns="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_mass" property="mass" z="z7t40tK8T+/cRrJXJACq517yLi8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_Particle_spin" property="spin" z="AOIjUfEVuTzKqKKpJIQ+dIJKMs4="/>
+        </table:table>
+    </page:list>
+</div>

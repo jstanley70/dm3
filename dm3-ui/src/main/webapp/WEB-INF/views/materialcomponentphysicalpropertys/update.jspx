@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty" modelAttribute="materialComponentPhysicalProperty" path="/materialcomponentphysicalpropertys" versionField="none" z="/Zg+rrZtQZcf4BM4OGMLwxXC3hU=">
+        <field:input field="name" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_name" z="eZWH8Sx+mOQOwTgc143aEqbuLgA="/>
+        <field:select field="propertyType" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_propertyType" itemValue="id" items="${physicalpropertytypes}" path="/physicalpropertytypes" z="zwcE/VI56eeyuzm0A6n23fMlGcw="/>
+        <field:select field="materialComponent" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_materialComponent" itemValue="id" items="${materialcomponents}" path="/materialcomponents" z="prEbLAjB+J8X2I3SO1l8yClU/A0="/>
+        <field:input field="quantity" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_quantity" validationMessageCode="field_invalid_number" z="UbCFdozwJ5WuZMy2CcHy0+FQkfY="/>
+        <field:input field="functionParameters" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_functionParameters" z="TgrHW1q0IiEAKDTLc3l2Qo+nExw="/>
+        <field:input field="uncertainty" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_uncertainty" validationMessageCode="field_invalid_number" z="CekrVnq63mEac+SKQHOrqDPMts0="/>
+        <field:select field="uncertaintyType" id="c_com_lacunalabs_dm_data_physics_solidstate_MaterialComponentPhysicalProperty_uncertaintyType" items="${uncertaintytypes}" path="uncertaintytypes" z="CSJ6qsDm+Iiv0t9X/xClzrjxiWw="/>
+    </form:update>
+</div>

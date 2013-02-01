@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens" items="${temobjectivelenses}" z="mEnE9BYgcGUb9Biz9aAKU2g3t/I=">
+        <table:table data="${temobjectivelenses}" id="l_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens" path="/temobjectivelenses" z="aUPWAAFeQAiziP/cDSFEoE71QuE=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_name" property="name" z="U5wfb8cMYDsCFKdTkBLV1kqEDzU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticAberration" property="chromaticAberration" z="fAYY7On8+odYrByd7e1URwD6mkU="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_sphericalAberration" property="sphericalAberration" z="oVXS0qx6zkupqIbwk8o1bdIAs+M="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delVoltage" property="delVoltage" z="Sp3MibFUoKqpKvGVb0JJLvtjMPQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delCurrent" property="delCurrent" z="bsuv0+TG0ferFR4hQE/Djke92WQ="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticSpread" property="chromaticSpread" z="em31WSYsAWv51O7lPlDEv3I+U5k="/>
+        </table:table>
+    </page:list>
+</div>

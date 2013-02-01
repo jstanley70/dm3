@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator" object="${particleenumerator}" path="/particleenumerators" z="U0gvRVK7+39zN3In9k3a3pPpJUs=">
+        <field:display field="particle" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_particle" object="${particleenumerator}" z="j2gZWjd6HFsKj3c+78e8VBIfdhA="/>
+        <field:display field="amount" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_amount" object="${particleenumerator}" z="EBHzMKJD9QC8ToMSkM+arTkkuw8="/>
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_fundamental_ParticleEnumerator_name" object="${particleenumerator}" z="dPmvVmRBhwz+8F3xaNYNtrIct5U="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry" items="${periodictableentrys}" z="YphCH7AaTeKX0L+MiGZZiagw9pg=">
+        <table:table data="${periodictableentrys}" id="l_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry" path="/periodictableentrys" z="o20jMga6Kp/EREx5d9GcGAv0mDA=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_atom" property="atom" z="O00k9r4twfKzXeo83VTFcx0cJnY="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_period" property="period" z="VqO+Fl7B/U0xs+PpGio+8+ZvUZg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_tableGroup" property="tableGroup" z="BwPBzckZXg3dEquJ/cA+LICCiz8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_block" property="block" z="1siCp0D4Bku2i1yokKXedmBNlb4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_classification" property="classification" z="H2reNolQz9sY33ovnOWmGrSyFl0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_fundamental_PeriodicTableEntry_symbol" property="symbol" z="RTgulNjSoGWWQiGcfFtdED2/ssY="/>
+        </table:table>
+    </page:list>
+</div>

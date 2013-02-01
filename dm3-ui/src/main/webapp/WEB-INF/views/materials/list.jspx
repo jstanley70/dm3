@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_solidstate_Material" items="${materials}" z="/cRUzVgiyHtMg+V95QG8u6k0J00=">
+        <table:table data="${materials}" id="l_com_lacunalabs_dm_data_physics_solidstate_Material" path="/materials" z="gFLt/86lW3QgA+7NwG/jTnnM9RY=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_name" property="name" z="ARySkUzldU9v0PNt9UALJvtX760="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_metadataType" property="metadataType" z="JUtrUlYPHUnvSnnzh08uAJmgbe8="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_metadata" property="metadata" z="gyTa3YS/b5gENTpdr7oKoE2e000="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_components" property="components" z="yg7SWY28oYO7IXAZ7Eq/ni4E5/w="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_orientations" property="orientations" z="K/Wx2IBggYG5suIISodtflLqb/k="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_solidstate_Material_totalVolume" property="totalVolume" z="eETykWjYD4Nkqf9k7fOCqYwznCM="/>
+        </table:table>
+    </page:list>
+</div>

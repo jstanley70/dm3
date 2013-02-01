@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens" object="${temobjectivelens}" path="/temobjectivelenses" z="0ZKnYmdbUiLF5ZSq9q9RytnfnWk=">
+        <field:display field="name" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_name" object="${temobjectivelens}" z="q0Kzmwm7ePk/XKzINE3KE/fZ86w="/>
+        <field:display field="chromaticAberration" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticAberration" object="${temobjectivelens}" z="dL6g/JLHhkegfU+MklyVVbL0a2s="/>
+        <field:display field="sphericalAberration" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_sphericalAberration" object="${temobjectivelens}" z="DWDjFLfwNLo32hEuxSutDZQ9oLw="/>
+        <field:display field="delVoltage" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delVoltage" object="${temobjectivelens}" z="bXAvMDJmGwePBO3P+KTusV0c/98="/>
+        <field:display field="delCurrent" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_delCurrent" object="${temobjectivelens}" z="fo2U/I+PF4adc3Ye9v7LSylKGS0="/>
+        <field:display field="chromaticSpread" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_chromaticSpread" object="${temobjectivelens}" z="pFLYB6UxopCpW8UaZyiN63llzfM="/>
+        <field:display field="convergenceAngle" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_convergenceAngle" object="${temobjectivelens}" z="dfei7OD5Nd7DizzTgTnazDHc3j0="/>
+        <field:display field="astigmatism" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_astigmatism" object="${temobjectivelens}" z="/CrZyNub0VUv5vofPqRMzufx7eA="/>
+        <field:display field="stigmaticAngle" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_stigmaticAngle" object="${temobjectivelens}" z="crk9eOudvXph+7tqgKxqzRNqoAU="/>
+        <field:display field="defocus" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_defocus" object="${temobjectivelens}" z="cvkh8AurLUth7pmGGbe3ASi0rBk="/>
+        <field:display field="defocusSpread" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_defocusSpread" object="${temobjectivelens}" z="gXWrD4CsSOycyZExcHOfWjc+OKE="/>
+        <field:display field="lensCurrent" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_lensCurrent" object="${temobjectivelens}" z="LdxNhTZs8ksOt0Ogq/PavqRbbXM="/>
+        <field:display field="metadataType" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_metadataType" object="${temobjectivelens}" z="dVPx0ISKQ6a8fN9yKMeZSwrhQ2M="/>
+        <field:display field="metadata" id="s_com_lacunalabs_dm_data_physics_instruments_TemObjectiveLens_metadata" object="${temobjectivelens}" z="U1buiXAGpg08IwWdnoP4G5977s0="/>
+    </page:show>
+</div>

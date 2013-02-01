@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_lacunalabs_dm_data_math_geometry_Vector3D" object="${vector3d}" path="/vector3ds" z="3BCn/f5h/aOUnvK1s0dC8JmEfvw=">
+        <field:display field="x" id="s_com_lacunalabs_dm_data_math_geometry_Vector3D_x" object="${vector3d}" z="3Ym/Yc8yEeVcjww/3+nlqPEGXTY="/>
+        <field:display field="y" id="s_com_lacunalabs_dm_data_math_geometry_Vector3D_y" object="${vector3d}" z="NJz6B7wyNK/FbzVnCQNLJ+nVWvA="/>
+        <field:display field="z" id="s_com_lacunalabs_dm_data_math_geometry_Vector3D_z" object="${vector3d}" z="+RDKNeBJdXz+Q9mJyu/xkCYtkCg="/>
+        <field:display field="vectorType" id="s_com_lacunalabs_dm_data_math_geometry_Vector3D_vectorType" object="${vector3d}" z="7pxVXUXf1sE41f06BED+umLamcM="/>
+    </page:show>
+</div>

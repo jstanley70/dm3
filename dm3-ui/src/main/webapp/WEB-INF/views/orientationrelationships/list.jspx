@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_math_geometry_OrientationRelationship" items="${orientationrelationships}" z="Ug9Wo7lvngCCS9aErJ3yWgHQ0Jk=">
+        <table:table data="${orientationrelationships}" id="l_com_lacunalabs_dm_data_math_geometry_OrientationRelationship" path="/orientationrelationships" z="C3vor4JqKUPGoj2XdIk+JPblIp0=">
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect1Shape1" property="aspect1Shape1" z="xQ5uefmumwL/Wp5S3MrmkFxzimc="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect1Shape2" property="aspect1Shape2" z="uS2fSHK0vvC7xUI75+ytkhPRBw4="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect2Shape1" property="aspect2Shape1" z="Ttj4dUG6tDoHdz9P8wNxdlssEg8="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_aspect2Shape2" property="aspect2Shape2" z="AvMSLA0lQzYjVvAncVI0RnE++a4="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_rotationShape2AboutAspect1" property="rotationShape2AboutAspect1" z="qbbdvlf+sirKdeHJk0csE4FR0ug="/>
+            <table:column id="c_com_lacunalabs_dm_data_math_geometry_OrientationRelationship_rotationShape2AboutAspect2" property="rotationShape2AboutAspect2" z="X0HM/JX22loTc/BvtdlS+7IrHGA="/>
+        </table:table>
+    </page:list>
+</div>

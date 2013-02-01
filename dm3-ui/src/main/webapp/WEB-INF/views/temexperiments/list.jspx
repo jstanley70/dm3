@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lacunalabs_dm_data_physics_experiment_TemExperiment" items="${temexperiments}" z="jewTihjNkcRobXVGgEQlAljrk68=">
+        <table:table data="${temexperiments}" id="l_com_lacunalabs_dm_data_physics_experiment_TemExperiment" path="/temexperiments" z="nBE6rOeBn2BQQ1dCXQFSlLPQy9w=">
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_identifier" property="identifier" z="5PtPBAQI3gscMYwLtc2NSuhT0S0="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadataType" property="metadataType" z="W7Qrj2CbI2eFPwybTUY7UWROJwg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_metadata" property="metadata" z="k8W8xMma3XGiSdD6mrpmuMX2Azw="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_tem" property="tem" z="w0b2+6fGqpV8aUyPFCeVEOpjgTg="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_aperature" property="aperature" z="BwTyUf99KbhbV7tn9hc2UyKBCQ4="/>
+            <table:column id="c_com_lacunalabs_dm_data_physics_experiment_TemExperiment_objectiveLens" property="objectiveLens" z="xUraaTJgbU+jATKTfYGtr/i1lg8="/>
+        </table:table>
+    </page:list>
+</div>
